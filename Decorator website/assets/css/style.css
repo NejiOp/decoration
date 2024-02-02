@@ -187,7 +187,7 @@ main{
 
 body {
   background-color: var(--white-alpha-20);
-  color: var(--black-alpha-80);
+  color: var(--white);
   font-family: var(--fontFamily-dm_sans);
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
