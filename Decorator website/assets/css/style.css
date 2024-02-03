@@ -1054,7 +1054,13 @@ body.nav-active {
     opacity: 1;
   }
 }
+.hero .slider-item.active .hero-title 
+{
+  
+  
+  background: rgba(60, 60, 60, 0.4);
 
+}
 .hero .slider-item.active .section-subtitle {
   animation-delay: 500ms;
 }
