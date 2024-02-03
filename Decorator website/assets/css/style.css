@@ -370,7 +370,7 @@ body.nav-active {
 
 .btn {
   position: relative;
-  color: white;
+  color: black;
   font-size: var(--fontSize-label-1);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
@@ -381,6 +381,7 @@ body.nav-active {
   overflow: hidden;
   z-index: 1;
 }
+
 
 .btn::before {
   content: "";
@@ -395,7 +396,6 @@ body.nav-active {
   transition: var(--transition-2);
   z-index: -1;
 }
-
 .btn .text {
   transition: var(--transition-1);
 }
@@ -1026,12 +1026,6 @@ body.nav-active {
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-1);
   line-height: var(--lineHeight-3);
-}
-
-.hero-btn::after {
-  inset: 0;
-  border: 1px solid #f78da7;
-  animation: rotate360 15s linear infinite;
 }
 
 .slider-reveal {
