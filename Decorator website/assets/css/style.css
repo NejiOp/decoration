@@ -660,14 +660,6 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-  #TOPBAR
-\*-----------------------------------*/
-
-.topbar {
-  display: none;
-}
-
-/*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
 
@@ -680,8 +672,7 @@ body.nav-active {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
-  padding-block: 40px;
+  background-color:  #aece89;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -739,7 +730,7 @@ body.nav-active {
 
 .navbar {
   position: fixed;
-  background-color: var(--smoky-black-1);
+  background-color: var(--pink-crayola);
   top: 0;
   left: -360px;
   bottom: 0;
@@ -888,6 +879,7 @@ body.nav-active {
 }
 
 .hero {
+  margin-top: 15vh;
   position: relative;
   padding-block: 120px;
   min-height: 100vh;
@@ -1059,7 +1051,6 @@ body.nav-active {
 
  /* About Section */
  #about {
-	padding: 0;
 	background: #f6f6f6;
 }
 #about h2::after {
@@ -1193,67 +1184,11 @@ body.nav-active {
   }
 
   /**
-   * TOPBAR
-   */
-
-  .topbar {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-block: 10px;
-    border-block-end: 1px solid var(--white-alpha-20);
-    z-index: 4;
-    transition: var(--transition-1);
-  }
-
-  .topbar:has(~ .header.active) {
-    transform: translateY(-100%);
-  }
-
-  .topbar-item:not(.link),
-  .topbar .separator {
-    display: none;
-  }
-
-  .topbar .container,
-  .topbar-item {
-    display: flex;
-    align-items: center;
-  }
-
-  .topbar .container {
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .topbar-item {
-    gap: 6px;
-  }
-
-  .topbar-item ion-icon {
-    --ionicon-stroke-width: 60px;
-  }
-
-  .topbar-item .span {
-    font-size: var(--fontSize-label-1);
-  }
-
-  .topbar .link {
-    transition: var(--transition-1);
-  }
-
-  .topbar .link:is(:hover, :focus-visible) {
-    color: var(--pink-crayola);
-  }
-
-  /**
    * HEADER
    */
 
   .header {
-    top: 11px;
+    top: 0px;
   }
 
   .header.active {
@@ -1408,17 +1343,6 @@ body.nav-active {
     width: 100%;
   }
 
-  /**
-   * TOPBAR
-   */
-
-  .topbar-item:not(.link) {
-    display: flex;
-  }
-
-  .topbar .item-2 {
-    margin-inline-end: auto;
-  }
 
   /**
    * SERVICE
@@ -1477,18 +1401,6 @@ body.nav-active {
     max-width: 1200px;
     width: 100%;
     margin-inline: auto;
-  }
-
-  /**
-   * TOPBAR
-   */
-
-  .topbar .container {
-    max-width: unset;
-  }
-
-  .topbar .separator {
-    display: block;
   }
 
   /**
