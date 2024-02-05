@@ -142,7 +142,7 @@ window.addEventListener("load", autoSlide);
 
 /**
  *  Contact Us
- */
+ *
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form");
 
