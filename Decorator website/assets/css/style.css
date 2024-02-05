@@ -763,7 +763,7 @@ body.nav-active {
 }
 
 .navbar .close-btn:is(:hover, :focus-visible) {
-  color: var(--pink-crayola);
+  color: var(--black-alpha-80);
 }
 
 .navbar .logo {
@@ -801,7 +801,7 @@ body.nav-active {
 }
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
-  color: var(--pink-crayola);
+  color: var(--white);
   transform: translateX(20px);
 }
 
@@ -826,16 +826,20 @@ body.nav-active {
   margin-block: 10px;
 }
 
-.navbar .body-4 {
-  color: var(--quick-silver);
+.navbar .body-4  {
+  color: var(--black-alpha-80);
 }
 
+.navbar .contact-number 
+{
+  color: var(--black-alpha-80);
+}
 .sidebar-link {
   transition: var(--transition-1);
 }
 
 .sidebar-link:is(:hover, :focus-visible) {
-  color: var(--pink-crayola);
+  color: var(--white);
 }
 
 .navbar .text-center .separator {
