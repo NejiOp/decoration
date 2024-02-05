@@ -1022,6 +1022,12 @@ body.nav-active {
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
+#about .section-text {
+  margin-block: 15px 30px;
+  margin-right: 150px;
+  text-align: justify;
+  
+}
 
 .aboutus {
   padding: 10vh 0;
@@ -1029,8 +1035,12 @@ body.nav-active {
   align-items: center; 
   grid-template-columns: 1fr 1fr;
   color: var(--black-alpha-80);
-
  }
+
+ #about .btn {
+
+  margin-block-start: 26px;
+}
  
 .aboutus img {
   margin-left: 20px;
@@ -1038,12 +1048,7 @@ body.nav-active {
    max-height:100%;
  }
  
- .aboutus .text{
-  padding: 0;
-  margin: 0;
-  width: 70%;
-  text-align: justify;
- }
+
  .aboutus .text h2{
   font-size: 5rem;
  }
@@ -1074,9 +1079,7 @@ body.nav-active {
     background-position: top-right;
     
 }
-#about p {
-	margin: 15px 0 30px;
-}
+
 
 
 /*-----------------------------------*\
