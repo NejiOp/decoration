@@ -1118,6 +1118,82 @@ body.nav-active {
   line-height: var(--lineHeight-6);
 }
 
+
+/*-----------------------------------*\
+  #GALLERY
+\*-----------------------------------*/
+
+.gallery{
+  background: #f6f6f6;
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.gallery .image{
+  width: 100%;
+  padding: 0 50px;
+}
+.gallery h2{
+  position: relative;
+  margin-bottom: 45px;
+  font-size: 8rem;
+  text-align: center;
+  color: var(--black);
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.5s ease;
+  
+  &:hover{
+    flex: 7;
+  }
+}
+
+.item-1 { 
+  background-image: url("../images/bhumi\ pujan.JPG");
+}
+
+.item-2 { 
+  background-image: url('../images//ganpati.jpeg');
+}
+
+.item-3 { 
+  background-image: url('../images/poster.JPG');
+}
+
+.item-4 { 
+  background-image: url('../images/swati.jpeg');
+}
+
+.item-5 { 
+  background-image: url('../images/nirmal.JPG');
+}
+
+.social{
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+  
+  img{
+    display: block;
+    width: 50px;
+  }
+}
+
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
