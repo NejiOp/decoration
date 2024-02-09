@@ -1210,11 +1210,10 @@ padding-top: 5vh;
     color: var(--smoky-black-1);
 }
 #footer h3{
-  font-family: 'Lato', sans-serif;
+font-size: 2.5rem;
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
+    border-left: 2px solid #eeeeee;
+    margin-bottom: 10px;
     color:#ffffff;
 }
 
@@ -1274,8 +1273,9 @@ padding-top: 5vh;
   margin-top: 2vh;
 }
 hr{
-  width: 50%;
-
+  width: 60%;
+padding-top: 0;
+margin-top: 0;
 }
 .google{
   margin-top: 2vh;
