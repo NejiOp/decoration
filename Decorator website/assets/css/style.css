@@ -1898,7 +1898,7 @@ hr{
 }
 
 .home h1 {
-color: var(--white);
+color: rgb(89, 2, 2);
 margin-top: 35vh;
 font-size: 8rem;
 
