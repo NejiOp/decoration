@@ -1898,12 +1898,23 @@ hr{
 }
 
 .home h1 {
-color: var(--smoky-black-1);
+color: rgb(79, 2, 2);
 margin-top: 20vh;
 font-size: 8rem;
 
 }
 
+.story{
+  color: var(--smoky-black-1);
+  text-align: center;
+}
 
+.story .section-text{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2rem;
+}
 
-
+.story .headline-1{
+  color: var(--smoky-black-1);
+}
