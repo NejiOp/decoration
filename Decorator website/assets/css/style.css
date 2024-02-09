@@ -1265,7 +1265,8 @@ font-size: 2.5rem;
 }
 
 #footer .links{
-  width: 25%;
+  margin-left: 5%;
+  width: 20%;
   text-align: left;
 }
 
@@ -1273,9 +1274,8 @@ font-size: 2.5rem;
   margin-top: 2vh;
 }
 hr{
-  width: 60%;
-padding-top: 0;
-margin-top: 0;
+  width: 70%;
+
 }
 .google{
   margin-top: 2vh;
