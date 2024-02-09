@@ -193,7 +193,7 @@ body {
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
   
-  height: 300vh;
+  height: 200vh;
 }
 
 body.loaded {
@@ -1918,4 +1918,5 @@ font-size: 15rem;
 .story .headline-1{
   color: var(--smoky-black-1);
   padding-top: 10vh;
+  
 }
