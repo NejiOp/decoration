@@ -1924,14 +1924,14 @@ font-size: 15rem;
 .vision-mission{
   display: flex; 
   width: 100%;
-  margin: 0  15%;
+gap: 20px;
+
 }
 
 .vision{
   width: 100%; 
   text-align: center; 
   padding: 5%; 
-  margin-right: 10%;       
   background-color: #f78da7;
 }
 
@@ -1939,7 +1939,6 @@ font-size: 15rem;
   width: 100%; 
   text-align: center; 
   padding: 5%; 
-  margin-right: 10%;       
   background-color: #f78da7;
 }
 
