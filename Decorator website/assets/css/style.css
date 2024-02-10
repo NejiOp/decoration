@@ -1920,3 +1920,30 @@ font-size: 15rem;
   padding-top: 10vh;
   
 }
+
+.vision-mission{
+  display: flex; 
+  width: 100%;
+  margin-left: 20%;
+}
+
+.vision{
+  width: 100%; 
+  text-align: center; 
+  padding: 5%; 
+  margin-right: 10%;       
+  background-color: #f78da7;
+}
+
+.mission{
+  width: 100%; 
+  text-align: center; 
+  padding: 5%; 
+  margin-right: 10%;       
+  background-color: #f78da7;
+}
+
+.slogan{
+  width: 100%;
+  padding: 0 5%;
+}
