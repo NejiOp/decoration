@@ -1923,20 +1923,20 @@ font-size: 15rem;
 
 .vision-mission{
   display: flex; 
-  width: 100%;
-gap: 20px;
+  gap: 20px;
+  padding-left: 8%;
 
 }
 
 .vision{
-  width: 100%; 
+  
   text-align: center; 
   padding: 5%; 
   background-color: #f78da7;
 }
 
 .mission{
-  width: 100%; 
+  
   text-align: center; 
   padding: 5%; 
   background-color: #f78da7;
