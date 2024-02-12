@@ -1911,19 +1911,21 @@ hr{
   background-repeat: no-repeat;
   position: relative;
   padding-block: 10px;
-  min-height: 70vh;
-  height: 70vh;
+  min-height: 60vh;
+  height: 60vh;
   overflow: hidden;
   z-index: 1;
   margin-bottom: 0;
 }
 
 .home h1 {
-color: rgb(89, 2, 2);
+color: rgb(146, 16, 16);
 margin-top: 20vh;
 font-size: 18rem;
 
 }
+
+
 
 .story{
   color: var(--smoky-black-1);
