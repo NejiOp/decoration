@@ -1911,8 +1911,8 @@ hr{
   background-repeat: no-repeat;
   position: relative;
   padding-block: 10px;
-  min-height: 60vh;
-  height: 60vh;
+  min-height: 70vh;
+  height: 70vh;
   overflow: hidden;
   z-index: 1;
   margin-bottom: 0;
