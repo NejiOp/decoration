@@ -1971,6 +1971,44 @@ font-size: 18rem;
 }
 
 
+/*ISO Certificate*/
+    
+  
+
+
+  .iso{
+    width: 100%;
+  }
+  .iso hr {
+ margin-left: 16%;
+  }
+.iso h2 {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 42px;
+  padding-left: 3%;
+  color: var(--smoky-black-1);
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.iso-img{
+  display: flex;
+              gap: 40px;
+              width: 100%;
+              padding-left: 22%;
+              padding-right: 10%;
+              padding-bottom: 20vh;
+
+}
+
+.iso-img img{
+  height: 75vh;
+  width: 42%;
+  border: 1px solid var(--smoky-black-1);
+}
+
 /*-----------------------------------*\
   #contact.css
 \*-----------------------------------*/
