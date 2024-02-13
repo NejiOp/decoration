@@ -1091,9 +1091,84 @@ body.nav-active {
   color: black;
 }
 
-.feature-card {
+.feature-card1 {
   padding: 30px 20px 40px;
-  background-color: #aece89;
+  background-image: url("../images/wed4.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card2 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/bith1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card3 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/lighting3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card4 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/wed1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card5 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/wed1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card6 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/flower\ decor.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card7 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/birthday4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
+}
+
+.feature-card8 {
+  padding: 30px 20px 40px;
+  background-image: url("../images/wed1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter:  blur(92px);
+  height: 25vh;
 }
 
 
@@ -1103,20 +1178,13 @@ body.nav-active {
   transition: var(--transition-2);
 }
 
-.feature-card:hover .card-icon {
+.feature-card:hover .service-text {
   transform: scale(-1) rotate(180deg);
 }
 
-.feature-card .card-title {
-  margin-block: 20px;
-  color: var(--black-alpha-80);
-}
 
-.feature-card .card-text {
- 
-  color: var(--black-alpha-80);
-  line-height: var(--lineHeight-6);
-}
+
+
 
 
 /*-----------------------------------*\
@@ -1981,7 +2049,9 @@ font-size: 18rem;
   }
   .iso hr {
  margin-left: 16%;
+ 
   }
+
 .iso h2 {
   text-align: center;
   padding-top: 5vh;
@@ -1994,7 +2064,7 @@ font-size: 18rem;
 }
 
 .iso h2:hover{
-  color: rgb(6, 95, 211);;
+  color: rgb(6, 95, 211);
 }
 
 .iso-img{
