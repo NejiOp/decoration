@@ -1090,16 +1090,19 @@ body.nav-active {
   margin-block-end: 40px;
   color: black;
 }
-
+.feature-card1 :hover{
+ 
+}
 .feature-card1 {
   padding: 30px 20px 40px;
-  background-image: url("../images/wed4.JPG");
+  background-image: url("../images/wed1.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+   border: 5px solid var(--pink-crayola);
 }
 
 .feature-card2 {
@@ -1107,10 +1110,11 @@ body.nav-active {
   background-image: url("../images/bith1.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card3 {
@@ -1118,32 +1122,35 @@ body.nav-active {
   background-image: url("../images/lighting3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card4 {
   padding: 30px 20px 40px;
-  background-image: url("../images/wed1.JPG");
+  background-image: url("../images/decor10.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card5 {
   padding: 30px 20px 40px;
-  background-image: url("../images/wed1.JPG");
+  background-image: url("../images/indoor1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card6 {
@@ -1151,10 +1158,11 @@ body.nav-active {
   background-image: url("../images/flower\ decor.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card7 {
@@ -1162,21 +1170,23 @@ body.nav-active {
   background-image: url("../images/birthday4.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 .feature-card8 {
   padding: 30px 20px 40px;
-  background-image: url("../images/wed1.JPG");
+  background-image: url("../images/outdoor1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
+  border: 5px solid var(--pink-crayola);
 }
 
 
