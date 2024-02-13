@@ -1993,6 +1993,10 @@ font-size: 18rem;
   font-weight: normal;
 }
 
+.iso h2:hover{
+  color: var(--pink-crayola);
+}
+
 .iso-img{
   display: flex;
               gap: 40px;
