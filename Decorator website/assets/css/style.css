@@ -1115,7 +1115,7 @@ body.nav-active {
 
 .feature-card3 {
   padding: 30px 20px 40px;
-  background-image: url("../images/lighting3.jpeg");
+  background-image: url("../images/lighting3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1233,7 +1233,7 @@ body.nav-active {
 }
 
 .item-2 { 
-  background-image: url('../images//ganpati.jpeg');
+  background-image: url('../images/ganpati.jpg');
 }
 
 .item-3 { 
@@ -1241,7 +1241,7 @@ body.nav-active {
 }
 
 .item-4 { 
-  background-image: url('../images/swati.jpeg');
+  background-image: url('../images/swati.jpg');
 }
 
 .item-5 { 
