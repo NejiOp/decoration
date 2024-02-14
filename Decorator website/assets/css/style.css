@@ -1090,16 +1090,13 @@ body.nav-active {
   margin-block-end: 40px;
   color: black;
 }
-.feature-card1 :hover{
- 
-}
+
 .feature-card1 {
   padding: 30px 20px 40px;
   background-image: url("../images/wed1.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
    border: 5px solid var(--pink-crayola);
@@ -1111,7 +1108,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1123,7 +1119,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1135,7 +1130,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1147,7 +1141,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1159,7 +1152,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1171,7 +1163,6 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
@@ -1183,21 +1174,9 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter:  blur(92px);
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
-}
-
-
-.feature-card .card-icon {
-  max-width: max-content;
-  margin-inline: auto;
-  transition: var(--transition-2);
-}
-
-.feature-card:hover .service-text {
-  transform: scale(-1) rotate(180deg);
 }
 
 
