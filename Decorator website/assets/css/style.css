@@ -1100,6 +1100,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
    border: 5px solid var(--pink-crayola);
+   transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card2 {
@@ -1111,6 +1113,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card3 {
@@ -1122,6 +1126,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card4 {
@@ -1133,6 +1139,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card5 {
@@ -1144,6 +1152,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card6 {
@@ -1155,6 +1165,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card7 {
@@ -1166,6 +1178,8 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 .feature-card8 {
@@ -1177,12 +1191,41 @@ body.nav-active {
   height: 25vh;
   border-radius: 50%;
   border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
 }
 
+.feature-card1:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
 
+.feature-card2:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
 
+.feature-card3:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
 
+.feature-card4:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
 
+.feature-card5:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
+
+.feature-card6:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
+
+.feature-card7:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
+
+.feature-card8:hover {
+  transform: scale(-1.2) rotate(180deg);
+}
 
 /*-----------------------------------*\
   #GALLERY
