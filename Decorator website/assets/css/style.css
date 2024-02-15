@@ -2059,22 +2059,27 @@ font-size: 18rem;
 .vision-mission{
   display: flex; 
   gap: 20px;
-  
+  height: 90vh;
 
 }
 
+.vision-mission p{
+  font-size: 1.4rem;
+}
 .vision{
-  
+  margin-top: 10svh;
   text-align: center; 
-  padding: 2%; 
+  padding: 3%; 
   background-color: #f78da7;
+  width: 100%;
 }
 
 .mission{
-  
+  margin-top: 10svh;
   text-align: center; 
-  padding: 2%; 
+  padding: 3%; 
   background-color: #f78da7;
+  width: 100%;
 }
 
 .slogan{
