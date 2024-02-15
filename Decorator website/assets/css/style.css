@@ -1201,35 +1201,35 @@ body.nav-active {
 }
 
 .feature-card1:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card2:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card3:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card4:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card5:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card6:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card7:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 
 .feature-card8:hover {
-  transform: scale(-1.2) rotate(180deg);
+  transform: scale(1.1);
 }
 /*-----------------------------------*\
   #GALLERY
