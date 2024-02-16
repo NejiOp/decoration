@@ -1102,7 +1102,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
    border: 5px solid var(--pink-crayola);
    transition: transform 0.3s ease-in-out;
@@ -1114,7 +1114,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1127,7 +1127,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1139,7 +1139,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1152,7 +1152,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1164,7 +1164,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1176,7 +1176,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1188,7 +1188,7 @@ body.nav-active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25vh;
+  height: 28vh;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
@@ -1546,7 +1546,7 @@ hr{
    */
 
   .grid-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   :is(.service, .event) .container {
