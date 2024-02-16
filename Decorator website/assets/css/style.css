@@ -2026,7 +2026,7 @@ hr{
 }
 
 .home h1 {
-color: var(--smoky-black-1);
+color: rgb(89, 2, 2);
 margin-top: 20vh;
 font-size: 18rem;
 
