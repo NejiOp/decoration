@@ -1092,7 +1092,7 @@ body.nav-active {
 }
 
 .features .card-title{
-  margin-top: 10vh;
+  margin-top: 12vh;
   background: rgba(60, 60, 60, 0.6);
 }
 
@@ -1546,7 +1546,7 @@ hr{
    */
 
   .grid-list {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   :is(.service, .event) .container {
