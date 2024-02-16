@@ -1092,109 +1092,104 @@ body.nav-active {
 }
 
 .features .card-title{
-  margin-top: 7vh;
+  margin-top: 10vh;
   background: rgba(60, 60, 60, 0.6);
 }
 
 .feature-card1 {
-  padding: 30px 20px 40px;
+
   background-image: url("../images/wed1.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
    border: 5px solid var(--pink-crayola);
    transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card2 {
-  padding: 30px 20px 40px;
   background-image: url("../images/bith1.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card3 {
-  padding: 30px 20px 40px;
+
   background-image: url("../images/lighting3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card4 {
-  padding: 30px 20px 40px;
   background-image: url("../images/decor10.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card5 {
-  padding: 30px 20px 40px;
+
   background-image: url("../images/indoor1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card6 {
-  padding: 30px 20px 40px;
   background-image: url("../images/flower\ decor.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card7 {
-  padding: 30px 20px 40px;
   background-image: url("../images/birthday4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
 
 .feature-card8 {
-  padding: 30px 20px 40px;
   background-image: url("../images/outdoor1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 60%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
