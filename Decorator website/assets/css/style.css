@@ -2138,15 +2138,15 @@ font-size: 18rem;
   font-weight: 300;
 }
 h3 {
-  font-weight: 600; font-style: italic; font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400; font-style: italic; font-family: "Fira Sans Condensed", sans-serif;
 }
 .infocardContainer {
   display: flex;
   height: 200px;
   width: 200px;
   border-radius: 100px;
-  background: rgb(0,159,255);
-  background: linear-gradient(121deg, rgba(255,255,255,0) 13%, rgba(0,159,255,1) 100%);
+  background: #aece89;
+  background: linear-gradient(121deg, rgba(255,255,255,0) 13%, #aece89 100%);
   transition: all 500ms ease-in;
   transition-delay: 1s;
   margin: auto;
@@ -2160,7 +2160,7 @@ h3 {
 }
 
 .infocardContainer div {
-  text-color: white;
+  text-color: var(--smoky-black-1);
   flex-shrink: 1;
   width: 100%;
 }
@@ -2170,7 +2170,7 @@ h3 {
   overflow: hidden;
   text-overflow: hidden;
 
-  color: white;
+  color: var(--smoky-black-1);
   white-space: nowrap;
   width: 0;
   height: auto;
