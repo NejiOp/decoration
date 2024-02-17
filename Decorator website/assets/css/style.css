@@ -2137,17 +2137,8 @@ font-size: 18rem;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 300;
 }
-h2 {
+h3 {
   font-weight: 600; font-style: italic; font-family: "Fira Sans Condensed", sans-serif;
-}
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: #555566;
-}
-a:hover {
-  text-decoration: underline;
 }
 .infocardContainer {
   display: flex;
