@@ -1389,6 +1389,9 @@ body.nav-active {
   background-image: url('../images/nirmal.JPG');
 }
 
+.item-6 { 
+  background-image: url('../images/janmastami\ 1.jpg');
+}
 
 
 
@@ -2339,7 +2342,7 @@ h3 {
 }
  .slogan{
 margin-top: 4vh;
-color: var(--pink-crayola);
+color: var(--smoky-black-1);
 font-style: italic;
 font-size: 2.5rem;
 }
