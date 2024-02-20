@@ -227,7 +227,7 @@ body.nav-active {
 .title-2,
 .title-3,
 .title-4 {
-  color: var(--white);
+ color: var(--white);
   font-family: var(--fontFamily-forum);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-2);
@@ -266,19 +266,23 @@ body.nav-active {
 .body-1 {
   font-size: var(--fontSize-body-1);
   line-height: var(--lineHeight-6);
+  color: var(--smoky-black-1);
 }
 
 .body-2 {
   font-size: var(--fontSize-body-2);
   line-height: var(--lineHeight-4);
+  color: var(--smoky-black-1);
 }
 
 .body-3 {
   font-size: var(--fontSize-body-3);
+  color: var(--smoky-black-1);
 }
 
 .body-4 {
   font-size: var(--fontSize-body-4);
+  color: var(--smoky-black-1);
 }
 
 .label-1 {
@@ -2241,6 +2245,25 @@ h3 {
   --margin: 0 1px 0 1px;
   border-radius: 25px;
 }
+
+
+
+/*-----------------------------------*\
+  #our services.css
+\*-----------------------------------*/
+
+.our-services ul{
+  margin-top: 5vh;
+}
+ .slogan{
+margin-top: 4vh;
+color: var(--pink-crayola);
+font-style: italic;
+font-size: 2.5rem;
+}
+
+
+
 
 
 /*-----------------------------------*\
