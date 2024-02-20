@@ -1390,7 +1390,11 @@ body.nav-active {
 }
 
 .item-6 { 
-  background-image: url('../images/janmastami\ 1.jpg');
+  background-image: url('../images/janmastami.jpeg');
+}
+
+.item-7 { 
+  background-image: url('../images/potluck.jpeg');
 }
 
 
