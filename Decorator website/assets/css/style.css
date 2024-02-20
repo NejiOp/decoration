@@ -1095,6 +1095,10 @@ body.nav-active {
   color: black;
 }
 
+.features .serv-btn{
+  margin-top: 10svh;
+ margin-left: 42%;
+}
 .features .card-title{
   margin-top: 120px;
   background: rgba(60, 60, 60, 0.6);
@@ -1109,6 +1113,8 @@ body.nav-active {
   background-size: cover;
   height: 270px;
   width: 270px;
+  padding-right: 5px;
+  padding-left: 5px;
   border-radius: 100%;
    border: 5px solid var(--pink-crayola);
    transition: transform 0.3s ease-in-out;
@@ -1203,14 +1209,74 @@ body.nav-active {
   height: 270px;
   width: 270px;
   padding-right: 10px;
-  border-radius: 100%;
-  flex-shrink: 0;
-  object-fit: cover;
+  padding-left: 10px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
 
 }
+
+.feature-card9 {
+  background-image: url("../images/government.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 270px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 100%;
+
+  border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.feature-card10 {
+  background-image: url("../images/corporate.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 270px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 100%;
+  border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.feature-card11 {
+  background-image: url("../images/laxmi\ poojan.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 270px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 100%;
+  border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.feature-card12 {
+  background-image: url("../images/college.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: 270px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 100%;
+  border: 5px solid var(--pink-crayola);
+  transition: transform 0.3s ease-in-out;
+
+}
+
 
 .feature-card1:hover {
   transform: scale(1.1);
@@ -1241,6 +1307,22 @@ body.nav-active {
 }
 
 .feature-card8:hover {
+  transform: scale(1.1);
+}
+
+.feature-card9:hover {
+  transform: scale(1.1);
+}
+
+.feature-card10:hover {
+  transform: scale(1.1);
+}
+
+.feature-card11:hover {
+  transform: scale(1.1);
+}
+
+.feature-card12:hover {
   transform: scale(1.1);
 }
 /*-----------------------------------*\
