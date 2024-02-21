@@ -1144,7 +1144,7 @@ body.nav-active {
   width: 270px;
     border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 
 }
 
