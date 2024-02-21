@@ -1117,7 +1117,7 @@ body.nav-active {
   padding-left: 5px;
   border-radius: 100%;
    border: 5px solid var(--pink-crayola);
-   transition: transform 0.3s ease-in-out;
+   transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1130,7 +1130,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 
 }
 
@@ -1144,8 +1144,18 @@ body.nav-active {
   width: 270px;
     border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+  
+  }
 }
 
 .feature-card4 {
@@ -1158,7 +1168,7 @@ body.nav-active {
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.3s ease-in-out;
-
+  animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
 }
 
 .feature-card5 {
@@ -1279,15 +1289,15 @@ body.nav-active {
 
 
 .feature-card1:hover {
-  transform: scale(1.1);
+  transform: scale(1) rotate(360deg);
 }
 
 .feature-card2:hover {
-  transform: scale(1.1);
+  transform: scale(-1) rotate(180deg);
 }
 
 .feature-card3:hover {
-  transform: scale(1.1);
+  transform: rotate(360deg);
 }
 
 .feature-card4:hover {
@@ -1493,6 +1503,7 @@ hr{
   margin-top: 2vh;
   margin-left: 5%;
 }
+
 .social{
   display: flex;
   gap: 30px;
@@ -1505,6 +1516,11 @@ hr{
 
 .findus{
   text-align: left;
+  width: 30%;
+}
+
+.findus iframe{
+  width: 100%;
 }
 .address{
   margin-top: 2vh;
@@ -2359,8 +2375,6 @@ color: var(--smoky-black-1);
 font-style: italic;
 font-size: 2.5rem;
 }
-
-
 
 
 
