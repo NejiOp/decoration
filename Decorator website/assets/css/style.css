@@ -1297,7 +1297,7 @@ body.nav-active {
 }
 
 .feature-card3:hover {
-  transform: rotate(360deg);
+  transform: scale(1.1);
 }
 
 .feature-card4:hover {
