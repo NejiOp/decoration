@@ -1513,10 +1513,19 @@ hr{
   margin-top: 8vh;
   margin-left: 39%;
 }
-
-.copyright{
-  color: var(--smoky-black-1);
+.footer-bottom{
+  margin-left: 31%;
+  padding-bottom: 1vh;
 }
+.copyright {
+  color: var(--smoky-black-1);
+  line-height: var(--lineHeight-3);
+}
+
+.copyright .link {
+  display: inline;
+}
+
 /*-----------------------------------*\
   #BACK TO TOP
 \*-----------------------------------*/
