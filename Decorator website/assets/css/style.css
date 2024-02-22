@@ -1190,7 +1190,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1203,7 +1203,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1306,7 +1306,7 @@ body.nav-active {
 }
 
 .feature-card3:hover {
-  animation: rot 4s;
+  animation: rot 4s ;
 }
 
 .feature-card4:hover {
@@ -1314,11 +1314,11 @@ body.nav-active {
 }
 
 .feature-card5:hover {
-  transform: scale(1.1);
+  transform: rotatex(360deg);
 }
 
 .feature-card6:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card7:hover {
