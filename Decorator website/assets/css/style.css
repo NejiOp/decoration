@@ -1130,7 +1130,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1148,15 +1148,6 @@ body.nav-active {
 
 }
 
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.2);
-  
-  }
-}
 .feature-card4 {
   background-image: url("../images/decor10.jpg");
   background-position: center;
@@ -1166,8 +1157,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
-  animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+  transition: transform 0.9s ease-in-out;
 }
 
 .feature-card5 {
@@ -1206,7 +1196,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 2s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1221,7 +1211,7 @@ body.nav-active {
   padding-left: 10px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1237,7 +1227,7 @@ body.nav-active {
   border-radius: 100%;
 
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+    transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1252,7 +1242,8 @@ body.nav-active {
   padding-left: 5px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+
 
 }
 
@@ -1267,7 +1258,7 @@ body.nav-active {
   padding-left: 5px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
@@ -1282,29 +1273,29 @@ body.nav-active {
   padding-left: 5px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
 
 }
 
 
 .feature-card1:hover {
-  transform: scale(1) rotate(360deg);
+  transform: rotateY(360deg);
 }
 
 .feature-card2:hover {
-  transform: scale(-1) rotate(180deg);
+  transform: rotateY(360deg);
 }
 
 .feature-card3:hover {
-  transform:skewY(360deg);
+  transform: rotateY(360deg);
 }
 
 .feature-card4:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card5:hover {
-  transform: rotatex(360deg);
+  transform: rotateY(360deg);
 }
 
 .feature-card6:hover {
@@ -1312,27 +1303,27 @@ body.nav-active {
 }
 
 .feature-card7:hover {
-  transform:skewX(360deg);
+  transform: rotateY(360deg);
 }
 
 .feature-card8:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card9:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card10:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card11:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 
 .feature-card12:hover {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
 /*-----------------------------------*\
   #GALLERY
