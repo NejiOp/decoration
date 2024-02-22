@@ -1144,18 +1144,8 @@ body.nav-active {
   width: 270px;
     border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  animation: rot 2s linear infinite;
+  transition: transform 0.9s ease-in-out;
 
-}
-
-@keyframes rot {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  
-  }
 }
 
 @keyframes pulse {
@@ -1216,7 +1206,7 @@ body.nav-active {
   width: 270px;
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 2s ease-in-out;
 
 }
 
@@ -1306,7 +1296,7 @@ body.nav-active {
 }
 
 .feature-card3:hover {
-  animation: rot 4s ;
+  transform:skewY(360deg);
 }
 
 .feature-card4:hover {
@@ -1322,7 +1312,7 @@ body.nav-active {
 }
 
 .feature-card7:hover {
-  transform: scale(1.1);
+  transform:skewX(360deg);
 }
 
 .feature-card8:hover {
