@@ -1144,7 +1144,7 @@ body.nav-active {
   width: 270px;
     border-radius: 100%;
   border: 5px solid var(--pink-crayola);
-  animation: rot 1s linear infinite;
+  animation: rot 2s linear infinite;
 
 }
 
@@ -1306,7 +1306,7 @@ body.nav-active {
 }
 
 .feature-card3:hover {
-  transform: scale(1);
+  animation: rot 4s;
 }
 
 .feature-card4:hover {
