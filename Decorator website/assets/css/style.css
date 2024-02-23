@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Carter+One&family=Merienda:wght@300&family=Sixtyfour:SCAN@7&family=Yatra+One&display=swap');
 /*-----------------------------------*\
   #index.css
 \*-----------------------------------*/
@@ -1001,12 +1002,20 @@ body.nav-active {
 }
 .hero .slider-item.active .hero-title 
 {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  
-  background: rgba(60, 60, 60, 0.3);
+  /*
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+*/
 
+font-family: "Alice", serif;
+font-weight: 400;
+font-style: normal;
+
+
+
+
+  background: rgba(60, 60, 60, 0.4);
 }
 .hero .slider-item.active .section-subtitle {
   animation-delay: 500ms;
@@ -1066,7 +1075,7 @@ body.nav-active {
 
  /* About Section */
  #about {
-	background: #f6f6f6;
+	background:  #e892a7;;
 }
 #about h2::after {
 	bottom: 0;
@@ -1074,6 +1083,15 @@ body.nav-active {
 	left: 0;
  
 }
+
+#about .btn{
+  border-color: var(--smoky-black-1);
+}
+
+#about .btn::before{
+  background-color: #a4c47e;
+}
+
 
 #about .about-text {
 	padding: 80px 0;
@@ -1094,7 +1112,8 @@ body.nav-active {
 
 .features .section-title {
   margin-block-end: 40px;
-  color: black;
+  color: rgb(245, 245, 245);
+  background-color: #aece89; margin-bottom: 10vh;
 }
 
 .features .serv-btn{
@@ -1332,7 +1351,8 @@ body.nav-active {
 \*-----------------------------------*/
 
 .gallery{
-  background: #f6f6f6;
+  background:#e892a7;
+ 
   padding: 75px 0;
   margin: 0 auto;
   width: 100%;
@@ -1347,7 +1367,7 @@ body.nav-active {
   margin-bottom: 45px;
   font-size: 8rem;
   text-align: center;
-  color: var(--black);
+  color: var(--white);
 }
 
 .gallery-wrap {
@@ -2148,10 +2168,13 @@ hr{
 }
 
 .home h1 {
-color: rgb(89, 2, 2);
+color:var(--white);
+background: rgba(60, 60, 60, 0.4);
+margin-left: 10%;
+    margin-right: 10%;
 margin-top: 20vh;
-font-size: 18rem;
-
+font-size: 15rem;
+font-family: "Alice", serif;
 }
 
 
@@ -2184,7 +2207,7 @@ font-size: 18rem;
   font-size: 1.4rem;
 }
 .vision{
-  margin-top: 10svh;
+
   text-align: center; 
   padding: 3%; 
   background-color: #f78da7;
@@ -2192,7 +2215,6 @@ font-size: 18rem;
 }
 
 .mission{
-  margin-top: 10svh;
   text-align: center; 
   padding: 3%; 
   background-color: #f78da7;
@@ -2231,24 +2253,28 @@ font-size: 18rem;
 
 .iso h2:hover{
   color: rgb(6, 95, 211);
+  transform: scale(1.2);
 }
 
 .iso-img{
   display: flex;
-              gap: 40px;
+              gap: 50px;
               width: 100%;
               padding-left: 22%;
               padding-right: 10%;
-              padding-bottom: 20vh;
+              padding-bottom: 15vh;
 
 }
 
 .iso-img img{
   height: 75vh;
   width: 42%;
-  border: 1px solid var(--smoky-black-1);
+  border: 2px solid var(--smoky-black-1);
 }
 
+.iso-img img:hover{
+  transform: scale(1.1);
+}
 
 
 /*-----------------------------------*\
@@ -2352,6 +2378,9 @@ h3 {
   border-radius: 25px;
 }
 
+.projects{
+  background-color: #f5cdbc;
+}
 
 
 /*-----------------------------------*\
@@ -2388,27 +2417,57 @@ font-size: 2.5rem;
 }
 
 .contact-home h1 {
-color: rgb(89, 2, 2);
+  color:var(--white);
+  background: rgba(60, 60, 60, 0.4);
+  margin-left: 10%;
+    margin-right: 10%;
 margin-top: 14vh;
-font-size: 18rem;
-
+font-size: 15rem;
+font-family: "Alice", serif;
 }
 
 .reservation .container{
   margin-bottom: 5vh;
+
+}
+.reservation-form{
+  background-color: var(--pink-crayola);
 }
 
+.reservation-form .btn{
+  border-color: #a4c47e;
+}
+
+.reservation-form .btn::before{
+  background-color:#a4c47e;
+}
+
+
+.reservation-form input{
+background-color:rgb(249, 239, 239);
+color: var(--smoky-black-1);
+}
+
+.reservation-form textarea{
+  background-color: rgb(249, 239, 239);
+  color: var(--smoky-black-1);
+  }
+
+  .reservation-form #event{
+    background-color: rgb(249, 239, 239);
+    color: var(--smoky-black-1);
+    }
 .form-text {
   margin-block-end: 40px;
 }
 .form-text span {
-  color: var(--pink-crayola);
+  color: white;
   display: inline;
 }
 
 .form-text .link {
   display: inline;
-  color: var(--pink-crayola);
+  color: var(--white);
 }
 
 .form-right .headline-1 {
@@ -2424,7 +2483,7 @@ font-size: 18rem;
 }
 
 .form-right .body-3 {
-  color: var(--quick-silver);
+  color: var(--white);
   line-height: var(--lineHeight-3);
 }
 
