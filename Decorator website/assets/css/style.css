@@ -1085,7 +1085,7 @@ font-style: normal;
 }
 
 #about .btn{
-  border-color: var(--smoky-black-1);
+  border-color: #a4c47e;
 }
 
 #about .btn::before{
