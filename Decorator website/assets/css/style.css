@@ -2295,7 +2295,7 @@ h3 {
   border-radius: 100px;
   background: #aece89;
   background:  var(--pink-crayola);
-  transition: all 500ms ease-in;
+  transition: all 0.3s ease-in;
   transition-delay: 1s;
   margin: auto;
   margin-top: 100px;
@@ -2304,7 +2304,7 @@ h3 {
 .infocardContainer:hover {
   width: 550px;
   border-radius: 100px 10px 100px 100px;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .infocardContainer div {
