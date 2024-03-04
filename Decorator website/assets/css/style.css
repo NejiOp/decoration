@@ -588,81 +588,6 @@ body.nav-active {
   right: 10px;
 }
 
-/*-----------------------------------*\
-  #PRELOAD
-\*-----------------------------------*
-
-.preload {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--pink-crayola);
-  z-index: 10;
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  transition: var(--transition-2);
-}
-
-.preload > * {
-  transition: var(--transition-1);
-}
-
-.preload.loaded > * {
-  opacity: 0;
-}
-
-.preload.loaded {
-  transition-delay: 250ms;
-  transform: translateY(100%);
-}
-
-.circle {
-  width: 112px;
-  height: 112px;
-  border-radius: var(--radius-circle);
-  border: 3px solid var(--white);
-  border-block-start-color: var(--smoky-black-3);
-  margin-block-end: 45px;
-  animation: rotate360 1s linear infinite;
-}
-
-@keyframes rotate360 {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-.preload .text {
-  text-align: center;
-  background-image: var(--loading-text-gradient);
-  background-size: 500%;
-  font-size: calc(2rem + 3vw);
-  font-weight: var(--weight-bold);
-  line-height: 1em;
-  text-transform: uppercase;
-  letter-spacing: 16px;
-  padding-inline-start: 16px;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 0.5px var(--eerie-black-3);
-  animation: loadingText linear 2s infinite;
-}
-
-@keyframes loadingText {
-  0% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0%;
-  }
-}
 
 /*-----------------------------------*\
   #HEADER
@@ -2036,10 +1961,90 @@ hr{
   }
 
 
+/**
+  About us
+  */
+  .aboutus{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+  }
+
+  .aboutus .image img{
+    margin-left: 10%;
+    width: 100%;
+    margin-bottom: 5vh;
+  
+  }
+  .aboutus h2{
+    text-align: center;
+  }
+
+  .aboutus p{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about-btn{
+    margin-left: 20%;
+  }
+  /**
+  our services
+  */
+
+  .features .serv-btn{
+    margin-left: 15%;
+  }
+  
+  /**
+  Footer
+  */
+  #footer .row {
+    gap: 10px;
+  }
+  #footer .links{
+    width: 40%;
+  }
+
+  #footer .contact{
+    width: 55%;
+  }
+#footer h3{
+  font-size: 2rem;
+}
+
+#footer h5{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+#footer .envelop{
+  font-size: 0.8rem;
+  
+ 
+}
+
+.findus{
+  display: none;
+}
+
+
+
+
+.socialmedia{
+  margin-left: 10%;
+ 
+} 
+
+
+
+.footer-bottom{
+  margin-left: 5%;
+  text-align: center;
+}
+
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 380px) {
+@media screen and (min-width: 321px) and (max-width: 380px) {
   /**
   header
   */
@@ -2058,6 +2063,89 @@ hr{
     height: 20vh !important;
   }
   
+
+/**
+  About us
+  */
+  .aboutus{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+  }
+
+  .aboutus .image img{
+    margin-left: 10%;
+    width: 100%;
+    margin-bottom: 5vh;
+  
+  }
+  .aboutus h2{
+    text-align: center;
+  }
+
+  .aboutus p{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about-btn{
+    margin-left: 20%;
+  }
+
+   /**
+  our services
+  */
+
+  .features .grid-list{
+    padding-left: 12%;
+  }
+  .features .serv-btn{
+    margin-left: 20%;
+  }
+  
+  /**
+  Footer
+  */
+  #footer .row {
+    gap: 10px;
+  }
+  #footer .links{
+    width: 40%;
+  }
+
+  #footer .contact{
+    width: 50%;
+  }
+#footer h3{
+  font-size: 2rem;
+}
+
+#footer h5{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+#footer .envelop{
+  font-size: 0.8rem;
+  
+ 
+}
+
+.findus{
+  display: none;
+}
+
+
+
+
+.socialmedia{
+  margin-left: 20%;
+} 
+
+
+
+.footer-bottom{
+  margin-left: 5%;
+  text-align: center;
+}
 }
 
 
@@ -2096,7 +2184,93 @@ hr{
   .header .dropdown-content #hover-underline{
     display: none;
   }
+ 
   
+
+/**
+  About us
+  */
+  .aboutus{
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  .aboutus .image img{
+    margin-left: 10%;
+    width: 100%;
+    margin-bottom: 5vh;
+  
+  }
+  .aboutus h2{
+    text-align: center;
+  }
+
+  .aboutus p{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about-btn{
+    margin-left: 25%;
+  }
+
+  
+  
+   /**
+  our services
+  */
+
+  .features .grid-list{
+    padding-left: 16%;
+  }
+  .features .serv-btn{
+    margin-left: 25%;
+  }
+    
+  /**
+  Footer
+  */
+  #footer .row {
+    gap: 10px;
+  }
+  #footer .links{
+    width: 40%;
+  }
+
+  #footer .contact{
+    width: 50%;
+  }
+#footer h3{
+  font-size: 2rem;
+}
+
+#footer h5{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+#footer .envelop{
+  font-size: 0.8rem;
+  
+ 
+}
+
+.findus{
+  display: none;
+}
+
+
+
+
+.socialmedia{
+  margin-left: 25%;
+} 
+
+
+
+.footer-bottom{
+  margin-left: 5%;
+  text-align: center;
+}
   
 }
 

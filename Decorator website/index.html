@@ -42,12 +42,6 @@
       rel="stylesheet"
     />
 
-    <!--
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=Pacifico&family=Protest+Revolution&family=Protest+Riot&family=Rubik+Glitch+Pop&family=Shadows+Into+Light&display=swap"
-      rel="stylesheet"
-    />-->
-
     <!-- 
     - custom css link
   -->
@@ -57,27 +51,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- 
-    - preload images
-  --
-    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />-->
   </head>
 
   <body id="top">
-    <!-- 
-    - #PRELOADER
-  -
-
-    <div class="preload" data-preaload>
-      <div class="circle"></div>
-      <p class="text">
-        We & You <br />
-        Events
-      </p>
-    </div>
-
     <!-- 
     - #HEADER
   -->
@@ -310,7 +286,12 @@
         <section id="about">
           <div class="aboutus">
             <div class="image">
-              <img src="./assets/images/decor5.jpg" alt="about us" />
+              <img
+                src="./assets/images/decor5.jpg"
+                alt="about us"
+                width="100%"
+                height="100vh"
+              />
             </div>
 
             <div class="text">
@@ -332,7 +313,7 @@
                 our target audience through the power of high-impact events and
                 entertainment shows.
               </p>
-              <a href="about.html" class="btn btn-primary">
+              <a href="about.html" class="btn btn-primary about-btn">
                 <span class="text text-1">Read More</span>
                 <span class="text text-2" aria-hidden="true">Read More</span>
               </a>
@@ -341,7 +322,7 @@
         </section>
 
         <!-- 
-        - #why us
+        - #Our Services
       -->
 
         <section
@@ -503,7 +484,7 @@
                 ><i class="fa fa-mobile-phone"></i> +91 9372246527</a
               >
             </h5>
-            <h5>
+            <h5 class="envelop">
               <a href="mailto:askweandyouevents@gmail.com"
                 ><i class="fa fa-envelope"></i> askweandyouevents@gmail.com</a
               >
@@ -549,6 +530,7 @@
                 <a
                   href="https://www.linkedin.com/in/we-and-you-events/"
                   target="_blank"
+                  rel="noopener"
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </li>
@@ -556,6 +538,7 @@
                 <a
                   href="https://www.youtube.com/@WeandYouEvents"
                   target="_blank"
+                  rel="noopener"
                   ><i class="fa fa-youtube"></i
                 ></a>
               </li>
@@ -569,6 +552,7 @@
               href="https://www.weandyouevents.com"
               target="_blank"
               class="link"
+              rel="noopener"
               >We & You Events</a
             >
           </p>
