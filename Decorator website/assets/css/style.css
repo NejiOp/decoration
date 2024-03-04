@@ -2166,6 +2166,41 @@ hr{
     display: none;
   }
   
+
+  /**
+  About us
+  */
+  .aboutus{
+    display: flex;
+    flex-wrap: wrap;
+   }
+ 
+   .aboutus .image img{
+     margin-left: 10%;
+     width: 100%;
+     margin-bottom: 5vh;
+   
+   }
+   .aboutus h2{
+     text-align: center;
+   }
+ 
+   .aboutus p{
+     width: 80%;
+     margin-left: 10%;
+   }
+   .about-btn{
+     margin-left: 35%;
+   }
+
+  
+   /**
+  our services
+  */
+
+  .features .grid-list{
+    padding-left: 8%;
+  }
   
 }
 
@@ -2290,6 +2325,34 @@ hr{
     display: none;
   }
 
+  /**
+  About us
+  */
+  .aboutus{
+   margin-left: 4%;
+   }
+ 
+   .aboutus .image img{
+    
+     margin-bottom: 5vh;
+   
+   }
+   
+   .aboutus p{
+     width: 90%;
+   }
+   .about-btn{
+     margin-left: 25%;
+   }
+
+
+   /**
+  our services
+  */
+
+  .features .grid-list{
+    padding-left: 15%;
+  }
 }
 
 @media screen and (min-width: 1030px) and (max-width: 1440px) {
