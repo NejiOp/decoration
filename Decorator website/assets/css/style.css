@@ -2486,9 +2486,10 @@ font-family: "Alice", serif;
 
 .iso-img{
   display: flex;
-              gap: 50px;
+  flex-wrap: wrap;
+              gap: 40px;
               width: 100%;
-              padding-left: 22%;
+              padding-left: 20%;
               padding-right: 10%;
               padding-bottom: 15vh;
 
@@ -2504,6 +2505,304 @@ font-family: "Alice", serif;
   transform: scale(1.1);
 }
 
+
+@media (max-width: 320px) {
+  /**
+  home
+  */
+
+.home{
+  margin-top: 0;
+  background-size: 100% 45vh;
+  background-position: center;
+}
+
+.home h1{
+  font-size: 4rem;
+  margin-top: 32vh;
+}
+
+
+.story .headline-1{
+  padding-top: 0;
+}
+
+.story .section-title{
+  font-size: 5rem;
+}
+.story .section-text{
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 20px;
+}
+
+/**
+services
+*/
+
+.vision-mission {
+  flex-wrap: wrap;
+  margin-bottom: 10vh;
+}
+.services .img{
+   display: none;
+}
+
+.testi-text{
+  line-height: 20px;
+}
+
+.services .slogan{
+  font-size: 1rem;
+  line-height: 20px;
+  margin-top: 50svh;
+  
+}
+
+
+ /**
+ iso
+ */ 
+ .iso h2{
+  font-size: 20px;
+padding: 5vh;
+ }
+.iso-img{
+  padding-left: 10%;
+}
+
+.iso-img img {
+  height: 50vh;
+  width: 100%;}
+}
+
+@media screen and (min-width: 321px) and (max-width: 380px) {
+  /**
+  home
+  */
+
+  .home{
+    margin-top: 0;
+    background-size: 100% 50vh;
+    background-position: center;
+  }
+  
+  .home h1{
+    font-size: 5rem;
+    margin-top: 32vh;
+  }
+  
+  
+  .story .headline-1{
+    padding-top: 0;
+  }
+  
+  .story .section-title{
+    font-size: 5rem;
+  }
+  .story .section-text{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  /**
+  services
+  */
+  
+  .vision-mission {
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+  }
+  .services .img{
+     display: none;
+  }
+  
+  .testi-text{
+    line-height: 20px;
+    padding-bottom: 5svh;
+  }
+  
+  .services .slogan{
+    font-size: 1rem;
+    margin-top: 20svh;
+    
+  }
+  
+  
+   /**
+   iso
+   */ 
+   .iso h2{
+    font-size: 20px;
+  padding: 5vh;
+   }
+  .iso-img{
+    padding-left: 10%;
+  }
+  
+  .iso-img img {
+    height: 50vh;
+    width: 100%;
+  }
+  }
+ 
+
+
+
+
+@media screen and (min-width: 431px) and (max-width: 770px) {
+
+ /**
+  home
+  */
+
+  .home{
+    margin-top: 0;
+    background-size: 100% 50vh;
+    background-position: center;
+  }
+  
+  .home h1{
+    font-size: 6rem;
+    margin-top: 32vh;
+  }
+  
+  
+  .story .headline-1{
+    padding-top: 0;
+  }
+  
+  .story .section-title{
+    font-size: 5rem;
+  }
+  .story .section-text{
+    font-size: 1.5rem;
+    
+    line-height: 20px;
+  }
+
+
+  
+  /**
+  services
+  */
+  .services .img{
+     display: none;
+  }
+  
+  .vision-mission p {
+    font-size: 1.4rem;
+    line-height: 21px;
+}
+   /**
+   iso
+   */ 
+   .iso h2{
+    font-size: 30px;
+
+   }
+
+  .iso img{
+height:100%;
+
+  }
+
+}
+
+
+@media screen and (min-width: 381px) and (max-width: 430px) {
+  /**
+  home
+  */
+
+  .home{
+    margin-top: 0;
+    background-size: 100% 50vh;
+    background-position: center;
+  }
+  
+  .home h1{
+    font-size: 5rem;
+    margin-top: 32vh;
+  }
+  
+  
+  .story .headline-1{
+    padding-top: 0;
+  }
+  
+  .story .section-title{
+    font-size: 5rem;
+  }
+  .story .section-text{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  /**
+  services
+  */
+  
+  .vision-mission {
+    flex-wrap: wrap;
+    
+  }
+  .services .img{
+     display: none;
+  }
+  
+  .testi-text{
+    line-height: 20px;
+    padding-bottom: 5svh;
+    
+    
+  }
+  
+  .services .slogan{
+    font-size: 1rem;
+    margin-top: 10svh;
+    
+  }
+  
+  
+   /**
+   iso
+   */ 
+   .iso h2{
+    font-size: 20px;
+  padding: 3vh;
+   }
+  .iso-img{
+    padding-left: 10%;
+  }
+  
+  .iso-img img {
+    height: 50vh;
+    width: 100%;
+  }
+
+ 
+
+  
+}
+
+@media screen and (min-width: 771px) and (max-width:1030px){
+ /**
+   iso
+   */ 
+   
+   .iso img{
+    height:100%;
+    
+      }
+
+      .vision-mission p{
+        line-height: 25px
+      };
+
+}
 
 /*-----------------------------------*\
   #project.css
@@ -2626,6 +2925,147 @@ font-size: 2.5rem;
 }
 
 
+@media (max-width: 320px) {
+
+.fea-sec{
+  padding-top: 0;
+}
+
+.fea-sec .section-title{
+  font-size: 5rem;
+  margin-bottom: 5svh;
+}
+.fea-sec .body-2{
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 20px;
+}
+
+/**
+services
+*/
+
+
+.slogans{
+  font-size: 1.5rem;
+  line-height: 20px;
+}
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 380px) {
+  .fea-sec{
+    padding-top: 0;
+  }
+  
+  .fea-sec .section-title{
+    font-size: 5rem;
+    margin-bottom: 5svh;
+  }
+  .fea-sec .body-2{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  /**
+  services
+  */
+
+  .slogans{
+    padding: 0 4%;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+
+  }
+ 
+
+
+
+
+@media screen and (min-width: 431px) and (max-width: 770px) {
+
+  .fea-sec{
+    padding-top: 0;
+  }
+  
+  .fea-sec .section-title{
+    margin-bottom: 4svh;
+  }
+  
+  
+  /**
+  services
+  */
+   .our-services ul  {
+    
+    padding-left: 12%;
+  }
+  
+  .slogans{
+    
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+
+}
+
+
+@media screen and (min-width: 381px) and (max-width: 430px) {
+  .fea-sec{
+    padding-top: 0;
+  }
+  
+  .fea-sec .section-title{
+    font-size: 5rem;
+    margin-bottom: 5svh;
+  }
+  .fea-sec .body-2{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  /**
+  services
+  */
+  
+  .slogans{
+    padding: 0 4%;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+
+  
+}
+
+@media screen and (min-width: 771px) and (max-width:1030px){
+ 
+  .home h1 {
+    font-size: 14rem;
+  }
+  .fea-sec .section-title{
+    margin-bottom: 4svh;
+  }
+  
+  
+  /**
+  services
+  */
+  
+  .slogans{
+    margin: 0 4px;
+    font-size: 2rem;
+    line-height: 25px;
+  }
+    }
+
 
 /*-----------------------------------*\
   #contact.css
@@ -2656,6 +3096,7 @@ font-family: "Alice", serif;
 
 .reservation .container{
   margin-bottom: 5vh;
+  margin-top: 5svh;
 
 }
 .reservation-form{
@@ -2743,6 +3184,9 @@ textarea.input-field {
   line-height: var(--lineHeight-1);
 }
 
+.reservation iframe{
+  width: 100%;
+ }
 .form-left .btn {
   max-width: 100%;
   width: 100%;
@@ -2753,6 +3197,124 @@ textarea.input-field {
   background-position: top left;
 }
 
+
+@media (max-width: 320px) {
+
+  /**
+  hero
+  */
+ 
+  .contact-home h1{
+    font-size: 5rem;
+    margin-top: 25vh;
+  }
+  
+  .contact-home{
+    background-size: 100% 85%;
+    
+  }
+
+  .reservation iframe{
+   width: 100%;
+  }
+
+  
+.form-right .body-3{
+  margin-left: 4%;
+  font-size: 1.2rem;
+}
+
+  
+  }
+  
+  @media screen and (min-width: 321px) and (max-width: 380px) {
+  /**
+  hero
+  */
+ 
+  .contact-home h1{
+    font-size: 5rem;
+    margin-top: 25vh;
+  }
+  
+  .contact-home{
+    background-size: 100% 85%;
+    
+  }
+
+  .reservation iframe{
+   width: 100%;
+  }
+
+  
+.form-right .body-3{
+  margin-left: 7%;
+  font-size: 1.5rem;
+}
+  
+    }
+   
+  
+  
+  
+  
+  @media screen and (min-width: 431px) and (max-width: 770px) {
+  
+
+    .contact-home h1{
+      font-size: 12rem;
+      margin-top: 25vh;
+    }
+  
+    .reservation iframe{
+     width: 80%;
+    }
+  
+    
+  .form-right .body-3{
+    margin-left: 18%;
+  }
+  
+  
+  }
+  
+  
+  @media screen and (min-width: 381px) and (max-width: 430px) {
+  /**
+  hero
+  */
+ 
+  .contact-home h1{
+    font-size: 5rem;
+    margin-top: 25vh;
+  }
+  
+  .contact-home{
+    background-size: 100% 85%;
+    
+  }
+
+  .reservation iframe{
+   width: 100%;
+  }
+
+  
+.form-right .body-3{
+  margin-left: 11%;
+  font-size: 1.5rem;
+}
+    
+  }
+  
+  @media screen and (min-width: 771px) and (max-width:1030px){
+    .contact-home h1{
+      margin-top: 22vh;
+    }
+    .form-right .body-3{
+      margin-left: 6%;
+      font-size: 1.5rem;
+    }
+  }
 
 
 
