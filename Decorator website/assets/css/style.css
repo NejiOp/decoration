@@ -2823,7 +2823,6 @@ h3 {
   background: #aece89;
   background:  var(--pink-crayola);
   transition: all 0.3s ease-in;
-  transition-delay: 1s;
   margin: auto;
   margin-top: 100px;
  
@@ -2844,20 +2843,17 @@ h3 {
   --flex: inherit;
   overflow: hidden;
   text-overflow: hidden;
-
   color: var(--smoky-black-1);
   white-space: nowrap;
   width: 0;
   height: auto;
   transition: all 0.3s ease-in;
-  transition-delay: 1s;
+  
 }
 .infocardContainer:hover div *{
-
   display: flex;
   visibility: visible;
   transition: all 0.5s ease-out;
-  transition-delay: 500ms;
   width: 100%;
   height: auto;
 }
@@ -2890,7 +2886,6 @@ h3 {
 .infocardContainer #textbois #hotlinks {
   max-width: 60%;
   max-height: 30px;
-  
   --background-color: white;
   position:absolute;
   bottom: 5px;
@@ -2909,6 +2904,56 @@ h3 {
   background-color: #faddd0;
 }
 
+@media (max-width: 320px) {
+  .pro-sec{
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .pro-sec h1{
+   margin-top: 38vh;
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 380px) {
+  .pro-sec{
+    background-size: 100% 100%;
+    
+  }
+
+  .pro-sec h1{
+   margin-top: 38vh;
+  }
+
+}
+
+
+
+@media screen and (min-width: 381px) and (max-width: 430px) {
+  .pro-sec{
+    background-size: 100% 100%;
+    
+  }
+
+  .pro-sec h1{
+   margin-top: 38vh;
+  }
+
+}
+
+
+@media screen and (min-width: 431px) and (max-width: 770px) {
+  .pro-sec{
+    background-size: 100% 100%;
+    
+  }
+
+  .pro-sec h1{
+   margin-top: 38vh;
+  }
+
+}
 
 /*-----------------------------------*\
   #our services.css
