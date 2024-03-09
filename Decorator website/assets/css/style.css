@@ -2828,7 +2828,9 @@ h3 {
  
 }
 .pro-main{
-  flex-wrap: wrap;
+  display: flex; 
+  gap: 20px;
+  flex-wrap:wrap;
 }
 .infocardContainer:hover {
   width: 550px;
@@ -2880,27 +2882,12 @@ h3 {
 }
 .infocardContainer #textbois {
   position: relative;
-  padding-top: 4vh; padding-left: 14%;
+  padding-top: 4vh; 
+  padding-left: 14%;
 }
 
 .infocardContainer #textbois h4{
   text-transform: uppercase;
-}
-.infocardContainer #textbois #hotlinks {
-  max-width: 60%;
-  max-height: 30px;
-  --background-color: white;
-  position:absolute;
-  bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 13px;
-}
-.infocardContainer #textbois #hotlinks * {
-  background-color: white;
-  max-width: 30px;
-  --margin: 0 1px 0 1px;
-  border-radius: 25px;
 }
 
 .projects{
@@ -2916,6 +2903,40 @@ h3 {
   .pro-sec h1{
    margin-top: 38vh;
   }
+
+  .infocardContainer:hover {
+    width: 300px;
+    height: 130px;
+  }
+
+  .infocardContainer :hover #main img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .infocardContainer:hover #textbois {
+    padding-top: 2vh;
+    padding-left: 2%;
+    line-height: 24px;
+  }
+
+  .infocardContainer:hover #main, .infocardContainer:hover #main img{
+    height: 130px;
+    width: 130px;
+    padding-right: 0px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .infocardContainer:hover #textbois h4, p{
+   font-size: 1rem;
+   
+  }
+
+  .infocardContainer:hover #textbois h3{
+    font-size: 1.5rem;
+   }
 }
 
 
@@ -2928,6 +2949,40 @@ h3 {
   .pro-sec h1{
    margin-top: 38vh;
   }
+
+  .infocardContainer:hover {
+    width: 350px;
+    height: 130px;
+  }
+
+  .infocardContainer :hover #main img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .infocardContainer:hover #textbois {
+    padding-top: 2vh;
+    padding-left: 2%;
+    line-height: 24px;
+  }
+
+  .infocardContainer:hover #main, .infocardContainer:hover #main img{
+    height: 150px;
+    width: 150px;
+    padding-right: 0px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .infocardContainer:hover #textbois h4, p{
+   font-size: 1rem;
+   
+  }
+
+  .infocardContainer:hover #textbois h3{
+    font-size: 1.5rem;
+   }
 
 }
 
@@ -2943,6 +2998,40 @@ h3 {
    margin-top: 38vh;
   }
 
+  .infocardContainer:hover {
+    width: 400px;
+    height: 160px;
+  }
+
+  .infocardContainer :hover #main img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .infocardContainer:hover #textbois {
+    padding-top: 4vh;
+    padding-left: 2%;
+    line-height: 24px;
+  }
+
+  .infocardContainer:hover #main, .infocardContainer:hover #main img{
+    height: 160px;
+    width: 160px;
+    padding-right: 0px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .infocardContainer:hover #textbois h4, p{
+   font-size: 1.3rem;
+   
+  }
+
+  .infocardContainer:hover #textbois h3{
+    font-size: 2rem;
+   }
+
 }
 
 
@@ -2956,6 +3045,66 @@ h3 {
    margin-top: 38vh;
   }
 
+  .infocardContainer {
+    width: 160px;
+    height: 160px;
+  }
+
+  .infocardContainer #main img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .infocardContainer:hover {
+    width: 430px;
+    height: 180px;
+  }
+
+  .infocardContainer :hover #main img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .infocardContainer:hover #textbois {
+    padding-top: 4vh;
+    padding-left: 2%;
+    line-height: 26px;
+  }
+
+  .infocardContainer:hover #main, .infocardContainer:hover #main img{
+    height: 180px;
+    width: 180px;
+  
+  }
+  .infocardContainer:hover #textbois h4, p{
+    font-size: 1.4rem;
+   }
+ 
+   .infocardContainer:hover #textbois h3{
+     font-size: 2rem;
+    }
+  
+  
+}
+
+
+@media screen and (min-width: 771px) and (max-width: 1025px){
+  
+  .infocardContainer {
+    width: 180px;
+    height: 180px;
+  }
+
+  .infocardContainer #main img {
+    height: 210px;
+    width: 210px;
+  }
+
+  .infocardContainer:hover #textbois {
+    padding-top: 3vh;
+    padding-left: 6%;
+    line-height: 30px;
+  }
 }
 
 /*-----------------------------------*\
