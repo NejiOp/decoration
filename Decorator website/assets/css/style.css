@@ -1978,10 +1978,12 @@ hr{
   .aboutus h2{
     text-align: center;
   }
-
-  .aboutus p{
-    width: 80%;
-    margin-left: 10%;
+  #about .section-text{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 1.8rem;
   }
   .about-btn{
     margin-left: 20%;
@@ -2082,9 +2084,12 @@ hr{
     text-align: center;
   }
 
-  .aboutus p{
-    width: 80%;
-    margin-left: 10%;
+  #about .section-text{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 2.1rem;
   }
   .about-btn{
     margin-left: 20%;
@@ -2240,9 +2245,12 @@ hr{
     text-align: center;
   }
 
-  .aboutus p{
-    width: 80%;
-    margin-left: 10%;
+  #about .section-text{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 1.8rem;
   }
   .about-btn{
     margin-left: 25%;
