@@ -1455,7 +1455,7 @@ hr{
 }
 .socialmedia{
   margin-top: 8vh;
-  margin-left: 39%;
+  margin-left: 37%;
 }
 .footer-bottom{
   margin-left: 31%;
@@ -1470,6 +1470,15 @@ hr{
   display: inline;
 }
 
+
+
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1em;
+}
 /*-----------------------------------*\
   #BACK TO TOP
 \*-----------------------------------*/
@@ -2020,8 +2029,6 @@ hr{
 
 #footer .envelop{
   font-size: 0.8rem;
-  
- 
 }
 
 .findus{
@@ -2036,11 +2043,16 @@ hr{
  
 } 
 
+.social {
+  gap: 20px;
+
+}
 
 
 .footer-bottom{
   margin-left: 5%;
   text-align: center;
+  
 }
 
 
@@ -2142,8 +2154,14 @@ hr{
 
 
 .socialmedia{
-  margin-left: 20%;
+  margin-left: 17%;
+ 
 } 
+
+.social {
+  gap: 20px;
+
+}
 
 
 
@@ -2305,8 +2323,14 @@ hr{
 
 
 .socialmedia{
-  margin-left: 25%;
+  margin-left: 19%;
+ 
 } 
+
+.social {
+  gap: 25px;
+
+}
 
 
 
