@@ -1289,12 +1289,15 @@ background: rgba(60, 60, 60, 0.4);
 .gallery-wrap {
   display: flex;
   flex-direction: row;
+  gap: 5px;
   width: 100%;
   height: 90vh;
 }
 
 .item {
   flex: 1;
+  border-radius: 20px;
+  border: 2px solid rgb(49, 48, 48);
   height: 90%;
   background-position: center;
   background-size: cover;
@@ -2003,7 +2006,23 @@ hr{
   .features .serv-btn{
     margin-left: 15%;
   }
+
+
+  /**
+  gallery
+  */
+
+  .gallery-wrap {
+    flex-direction: column;
+    gap: 5px;
+  }
   
+  .item {
+    flex: 3;
+    border-radius: 20px;
+  }
+
+
   /**
   Footer
   */
@@ -2114,6 +2133,21 @@ hr{
   }
   
   /**
+  gallery
+  */
+
+  .gallery-wrap {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .item {
+    flex: 3;
+    border-radius: 20px;
+  
+  }
+
+  /**
   Footer
   */
   #footer .row {
@@ -2219,7 +2253,21 @@ hr{
   .features .grid-list{
     padding-left: 8%;
   }
+    /**
+  gallery
+  */
+
+  .gallery-wrap {
+    flex-direction: column;
+    gap: 5px;
+  }
   
+  .item {
+    flex: 1;
+    border-radius: 20px;
+  
+  }
+
 }
 
 
@@ -2282,6 +2330,21 @@ hr{
     margin-left: 25%;
   }
     
+    /**
+  gallery
+  */
+
+  .gallery-wrap {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .item {
+    flex: 2;
+    border-radius: 20px;
+  
+  }
+
   /**
   Footer
   */
@@ -2379,6 +2442,23 @@ hr{
 
   .features .grid-list{
     padding-left: 15%;
+  }
+
+    /**
+  gallery
+  */
+
+  .gallery-wrap {
+    flex-direction: column;
+    gap: 5px;
+    height: 120vh;
+  }
+  
+  .item {
+    flex: 1;
+    border-radius: 20px;
+    
+  
   }
 }
 
