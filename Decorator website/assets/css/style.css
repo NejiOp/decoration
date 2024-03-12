@@ -1296,8 +1296,8 @@ background: rgba(60, 60, 60, 0.4);
 
 .item {
   flex: 1;
-  border-radius: 20px;
-  border: 2px solid rgb(49, 48, 48);
+  border-radius: 50px;
+  border: 1px solid rgb(49, 48, 48);
   height: 90%;
   background-position: center;
   background-size: cover;
@@ -2018,7 +2018,6 @@ hr{
   
   .item {
     flex: 3;
-    border-radius: 20px;
   }
 
 
@@ -2137,13 +2136,10 @@ hr{
 
   .gallery-wrap {
     flex-direction: column;
-
   }
   
   .item {
     flex: 3;
-    border-radius: 20px;
-  
   }
 
   /**
@@ -2258,13 +2254,6 @@ hr{
 
   .gallery-wrap {
     flex-direction: column;
-    gap: 5px;
-  }
-  
-  .item {
-    flex: 1;
-    border-radius: 20px;
-  
   }
 
 }
@@ -2335,13 +2324,10 @@ hr{
 
   .gallery-wrap {
     flex-direction: column;
- 
   }
   
   .item {
     flex: 2;
-    border-radius: 20px;
-  
   }
 
   /**
