@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q0CF4MTYVP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q0CF4MTYVP");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href="https://www.weandyoucatering.com" />
+    <meta
+      property="og:title"
+      content="We & You Decor | Event Decorator in Mumbai  "
+    />
+    <meta
+      property="og:description"
+      content="Transform your events with We and You Events, Mumbai's top event management and decoration company. Specializing in all events, we offer comprehensive decoration services. Contact us for a memorable experience."
+    />
+    <meta
+      property="og:image"
+      content="./assets/images/We___You_black LOGO__.png"
+    />
+    <meta property="og:url" content="https://weandyoudecor.com" />
+    <meta property="og:type" content="website" />
+
+    <meta name="robots" content="index, follow" />
 
     <!-- 
     - primary meta tags
@@ -17,8 +46,8 @@
       Transform your events with We and You Events, Mumbai's top event management and decoration company. Specializing in all events, we offer comprehensive decoration services. Contact us for a memorable experience."
     />
     <meta
-      name="keyword"
-      content="Event decor, Wedding decor, Party decorations, Event styling, Venue decoration, Corporate event decor, Theme decor, Floral arrangements, Table centerpieces, Event design services, Event backdrop, Balloon decorations, Event furniture rental, Stage decoration,
+      name="keywords"
+      content="Event decor, Wedding decor, Party decorations,decorator in mumbai, Event styling, Venue decoration, Corporate event decor, Theme decor, Floral arrangements, Table centerpieces, Event design services, Event backdrop, Balloon decorations, Event furniture rental, Stage decoration,
       Lighting decor, Event planning, Event coordination, Event organization, Event logistics, Event coordination services, Event production,
       Event coordination company, Event management services, Professional event planners, Event execution, weandyouevents, weandyoudecor"
     />
@@ -28,10 +57,14 @@
   -->
     <link
       rel="shortcut icon"
-      href="./assets/images/We___You_LOGO.png"
+      href="./assets/images/We___You_black LOGO__.png"
       type="image/png"
     />
 
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/We___You_black LOGO__.png"
+    />
     <!-- 
     - google font link
   -->
@@ -52,7 +85,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body id="top" class="contactus">
     <!-- 
     - #HEADER
   -->
@@ -64,7 +97,7 @@
             src="./assets/images/We___You_black LOGO__.png"
             width="150"
             height="30"
-            alt="we&you - Home"
+            alt="we and you events event management company in mumbai, India"
             id="logo"
           />
         </a>
@@ -79,7 +112,7 @@
               src="./assets/images/We___You_black LOGO__.png"
               width="140"
               height="30"
-              alt="we&you - Home"
+              alt="we and you events event management company in mumbai, Maharashtra"
             />
           </a>
 
@@ -178,7 +211,7 @@
 
         <section
           class="contact-home text-center"
-          aria-label="home"
+          aria-label="event management company and decorator in mumbai , India contact"
           id="home"
           style="background-image: url(./assets/images/contact\ bg.jpg)"
         >
@@ -197,7 +230,7 @@
           <div class="container">
             <div class="form reservation-form">
               <form
-                action="https://formsubmit.co/inquiry@weandyoucatering.com"
+                action="mail.php"
                 method="post"
                 class="form-left"
                 id="contact-form"
@@ -237,7 +270,13 @@
                   class="input-field"
                 />
 
-                <select id="event" name="event" class="input-field" required>
+                <select
+                  id="event"
+                  title="event"
+                  name="event"
+                  class="input-field"
+                  required
+                >
                   <option value="Select the event">Select the event</option>
                   <option value="General inquiry">General Inquiry</option>
                   <option value="Family events">Family events</option>
@@ -279,6 +318,7 @@
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.900315057733!2d72.8332233!3d18.935806000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1dc0d3aaaab%3A0x878f93c7c3430b45!2sWe%20%26%20You%20Events!5e0!3m2!1sen!2sin!4v1702719651320!5m2!1sen!2sin"
                   width="270"
                   height="200"
+                  title="map"
                   style="border: 0"
                   class="map"
                   allowfullscreen=""
@@ -309,16 +349,16 @@
 
                 <p class="body-3" id="body-4">
                   <a
-                    href="mailto:bookings@weandyoucatering.com"
+                    href="mailto:contact@weandyoudecor.com "
+                    class="body-3 contact-link hover-underline text-center"
+                    id="body-3"
+                    >contact@weandyoudecor.com
+                  </a>
+                  <a
+                    href="mailto:askweandyouevents@gmail.com"
                     class="body-3 contact-link hover-underline text-center"
                     id="body-3"
                     >askweandyouevents@gmail.com</a
-                  >
-                  <a
-                    href="mailto:inquiry@weandyoucatering.com"
-                    class="body-3 contact-link hover-underline text-center"
-                    id="body-3"
-                    >weandyoueventneeds@gmail.com</a
                   >
                 </p>
               </div>
@@ -387,8 +427,25 @@
               >
             </h5>
             <h5 class="envelop">
-              <a href="mailto:askweandyouevents@gmail.com"
-                ><i class="fa fa-envelope"></i> askweandyouevents@gmail.com</a
+              <a href="mailto:contact@weandyoudecor.com"
+                ><i class="fa fa-envelope"></i> contact@weandyoudecor.com</a
+              >
+            </h5>
+            <h5>
+              <a
+                href="https://weandyouevents.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-link"></i>www.weandyouevents.com</a
+              >
+            </h5>
+            <h5>
+              <a
+                href="https://weandyoucatering.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa fa-link"></i>www.weandyoucatering.com</a
               >
             </h5>
           </div>
@@ -401,6 +458,7 @@
               width="300"
               height="200"
               style="border: 0"
+              title="map"
               allowfullscreen=""
               loading="lazy"
               class="google"
@@ -414,17 +472,21 @@
               <li class="list-inline-item">
                 <a
                   href="https://www.facebook.com/people/We-You-Event/100092609270249/"
+                  title="facebook"
                   ><i class="fa fa-facebook"></i
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/weandyouevent/"
+                <a
+                  href="https://www.instagram.com/weandyouevent/"
+                  title="instagram"
                   ><i class="fa fa-instagram"></i
                 ></a>
               </li>
               <li class="list-inline-item">
                 <a
                   href="https://api.whatsapp.com/send?phone=9321146514&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202"
+                  title="whatsapp"
                   ><i class="fa fa-whatsapp"></i
                 ></a>
               </li>
@@ -433,6 +495,7 @@
                   href="https://www.linkedin.com/in/we-and-you-events/"
                   target="_blank"
                   rel="noopener"
+                  title="LinkedIn"
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </li>
@@ -441,6 +504,7 @@
                   href="https://www.youtube.com/@WeandYouEvents"
                   target="_blank"
                   rel="noopener"
+                  title="Youtube"
                   ><i class="fa fa-youtube"></i
                 ></a>
               </li>
@@ -449,6 +513,7 @@
                   href="https://twitter.com/weandyouevents"
                   target="_blank"
                   rel="noopener"
+                  title="Twitter"
                   ><i class="fa fa-twitter"></i
                 ></a>
               </li>

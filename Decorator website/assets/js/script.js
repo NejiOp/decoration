@@ -182,3 +182,7 @@ window.addEventListener("mousemove", function (event) {
     parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
   }
 });
+
+// Parallax Code
+var scene = document.getElementById("scene");
+var parallax = new Parallax(scene);

@@ -1012,13 +1012,7 @@ background: rgba(60, 60, 60, 0.4);
 #about .about-text {
 	padding: 80px 0;
 }
-#about .about-img {
-	background: url(./img/decor3.jpg) center center no-repeat;
-	background-size:auto;
-	height: 570px;
-    background-position: top-right;
-    
-}
+
 
 
 
@@ -1135,7 +1129,6 @@ background: rgba(60, 60, 60, 0.4);
   border-radius: 100%;
   border: 5px solid var(--pink-crayola);
   transition: transform 0.9s ease-in-out;
-
 }
 
 .feature-card8 {
@@ -1857,6 +1850,7 @@ hr{
 
   .hero {
     height: 880px;
+    margin-top: 7svh;
   }
 
   .hero-btn {
@@ -2457,10 +2451,11 @@ hr{
 }
 
 
-@media screen and (min-width: 1441px) and (max-width: 2560px) {
+@media screen and (min-width: 1441px) and (max-width: 2580px) {
   .header .menuhome{
     display: none;
   }
+  
 }
 
 
@@ -2471,7 +2466,7 @@ hr{
 
 .home {
   margin-top: 15vh;
-  background-size: 100% 75vh;
+  background-size: 100% 80vh;
   background-repeat: no-repeat;
   position: relative;
   padding-block: 10px;
@@ -2891,6 +2886,21 @@ height:100%;
 
 }
 
+@media screen and (min-width: 1441px) and (max-width: 2580px) {
+  .home{
+    margin-top: 7vh;
+  }
+
+  .vision   p{
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+    .mission p{
+    font-size: 2rem;
+    text-align: justify;
+  }
+}
+
 /*-----------------------------------*\
   #project.css
 \*-----------------------------------*/
@@ -3194,6 +3204,17 @@ h3 {
   }
 }
 
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+  .project{
+    height: 150vh;
+  }
+ 
+  .home h1 {
+    margin-top: 25vh;
+  }
+
+}
 /*-----------------------------------*\
   #our services.css
 \*-----------------------------------*/
@@ -3591,6 +3612,19 @@ textarea.input-field {
     }
   }
 
+  @media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+    .contactus{
+      height: 140vh;
+    }
+   .contact-home{
+      margin-top: 0;
+    }
+    .contact-home h1 {
+      margin-top: 25vh;
+    }
+
+  }
 
 
 
