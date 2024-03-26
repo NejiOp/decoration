@@ -9,7 +9,6 @@
 
 .containers {
 	max-width: 100rem;
-
 	margin: 3rem auto;
 	padding: 0 2rem 2rem;
 }
@@ -30,6 +29,7 @@
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	margin: 1rem;
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2rem;
 	overflow: hidden;
 }
 
@@ -39,6 +39,7 @@
 	height: 100%;
 	object-fit: cover;
 	transition: transform 400ms ease-out;
+
 }
 
 .gallery-image:hover {
