@@ -1463,6 +1463,18 @@ hr{
   line-height: var(--lineHeight-3);
 }
 
+.disclaimer{
+  color: var(--smoky-black-1);
+  line-height: var(--lineHeight-3);
+  margin-left: 6%;
+}
+
+.disclaimer .link {
+  display: inline;
+  color: var(--white) !important;
+  
+}
+
 .copyright .link {
   display: inline;
 }
@@ -2936,7 +2948,7 @@ h3 {
 }
 
 .infocardContainer div {
-  text-color: var(--smoky-black-1);
+  color: var(--smoky-black-1);
   flex-shrink: 1;
   width: 100%;
 }
@@ -3347,7 +3359,7 @@ services
 @media screen and (min-width: 771px) and (max-width:1030px){
  
   .home h1 {
-    font-size: 14rem;
+    font-size: 12rem;
   }
   
   
@@ -3628,3 +3640,10 @@ textarea.input-field {
 
 
 
+/**
+disclaimer
+*/
+
+.disclaimers{
+  margin-top: 25svh;
+}
