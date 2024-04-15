@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
+body{
+	height: 150vh!important;
+}
 
 .containers {
 	max-width: 130rem;
@@ -226,6 +229,8 @@ flower decor
 	display: grid;
 	gap: var(--g);
 	aspect-ratio: 1;
+	width: 75%;
+
 	grid-template-columns: repeat(3,auto);
   }
   
@@ -236,7 +241,7 @@ flower decor
 	min-width: 100%;
 	object-fit: cover;
 	cursor: pointer;
-	filter: grayscale(70%);
+	filter: grayscale(60%);
 	transition: .35s linear;
   }
   
