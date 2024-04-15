@@ -224,7 +224,7 @@ flower decor
   .gallerys {
 	--s: 250px; /* control the size */
 	--g: 10px;  /* control the gap */
-	--f: 1.3;   /* control the scale factor */
+	--f: 1;   /* control the scale factor */
 	margin: 5svh auto;
 	display: grid;
 	gap: var(--g);
