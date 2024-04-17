@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
 body{
-	height: 150vh!important;
+	height: 170vh!important;
 }
 
 .containers {
@@ -225,13 +225,12 @@ flower decor
 	--s: 250px; /* control the size */
 	--g: 10px;  /* control the gap */
 	--f: 1;   /* control the scale factor */
-	margin: 5svh auto;
+	margin: 10svh auto;
 	display: grid;
 	gap: var(--g);
 	aspect-ratio: 1;
-	width: 75%;
-
-	grid-template-columns: repeat(3,auto);
+	width: 100%;
+	grid-template-columns: auto auto auto;
   }
   
   .gallerys > img {
