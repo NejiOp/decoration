@@ -250,12 +250,9 @@ flower decor
 	height: calc(var(--s)*var(--f));
   }
   
-  
-  
 /**
 Ballon decor
 */
-
 
 .containerss {
     width: 100vw;
@@ -328,3 +325,46 @@ Ballon decor
     width: 100vw;  
 	
 }
+
+
+/*
+Lighting Decor
+*/
+
+  .galllery-image {
+	margin: 10svh auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .galllery-image img {
+	height: 350px;
+	width: 450px;
+	transform: scale(1.0);
+	transition: transform 0.4s ease;
+	
+  }
+  
+  .imgs-box {
+	box-sizing: content-box;
+	margin: 10px;
+	height: 350px;
+	width: 450px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 15px;
+	border: 6px solid #aece89;
+	color: white;
+	position: relative;
+	background-color: white;
+  }
+
+  .imgs-box:hover img { 
+	transform: scale(1.1);
+  }
+  
+  .imgs-box:hover {
+	cursor: pointer;
+  }
