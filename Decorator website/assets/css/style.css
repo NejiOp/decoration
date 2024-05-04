@@ -1332,6 +1332,14 @@ background: rgba(60, 60, 60, 0.4);
   background-image: url('../images/potluck.jpg');
 }
 
+.item-8 { 
+  background-image: url('../images/decor1.jpg');
+}
+
+.item-9 { 
+  background-image: url('../images/decor2.jpeg');
+}
+
 
 
 /*-----------------------------------*\
