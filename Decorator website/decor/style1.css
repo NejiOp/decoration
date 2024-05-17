@@ -375,8 +375,6 @@ Lighting Decor
   /*
   theme decor
   */
-
- 
   
   .wrappers {
 	position: relative;
@@ -385,6 +383,7 @@ Lighting Decor
 	max-width: 1200px;
 	max-height: 1200px;
 	margin-top: 5svh;
+	margin-bottom: 5svh;
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(4, 1fr);
