@@ -382,12 +382,12 @@ Lighting Decor
 	margin: auto;
 	max-width: 1200px;
 	max-height: 1200px;
-	margin-top: 5svh;
-	margin-bottom: 5svh;
+	margin-top: 8svh;
+	margin-bottom: 8svh;
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(4, 1fr);
-	grid-gap: 4vmin;
+	grid-gap: 5vmin;
 	justify-items: center;
 	align-items: center;
   }
@@ -396,8 +396,8 @@ Lighting Decor
 	z-index: 1;
 	grid-column: span 2;
 	max-width: 100%;
-	margin-bottom: -52%;
-	height: 30svh;
+	margin-bottom: -47%;
+	height: 25svh;
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	transform: scale(1);
 	transition: all .25s;
