@@ -383,7 +383,7 @@ Lighting Decor
 	max-width: 1200px;
 	max-height: 1200px;
 	margin-top: 8svh;
-	margin-bottom: 8svh;
+	margin-bottom: 10svh;
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(4, 1fr);
