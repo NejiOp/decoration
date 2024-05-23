@@ -464,24 +464,26 @@ Lighting Decor
     width: 30%;
 	height: 250px;
     padding-bottom: 10%;
-	transition: 0.3s;
+	
 	
 	
 }
 
-.box:hover{
+.boxInner:hover{
 	transform: scale(1.1);
+	border: 6px solid #aece89;
 }
 
 .boxInner {
     position: absolute;
-    left: 10px;
+    left: 20px;
     right: 10px;
     top: 10px;
     bottom: 10px;
     overflow: hidden;
 	border-radius: 8px;
-	border: 5px solid #aece89;
+	
+	transition: 0.3s;
 }
  .boxInner img { width: 100%;
 height: 250px; }
