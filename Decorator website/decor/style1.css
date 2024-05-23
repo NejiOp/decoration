@@ -455,7 +455,7 @@ Lighting Decor
     overflow: hidden;
     
   max-width: 1500px;
-  margin: 10svh auto;
+  margin: 10svh 0 10svh 15svh;
   
 }
 .box {
