@@ -398,7 +398,7 @@ Lighting Decor
 	max-width: 100%;
 	margin-bottom: -47%;
 	height: 25svh;
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); 
 	transform: scale(1);
 	transition: all .25s;
 	
@@ -453,16 +453,24 @@ Lighting Decor
 
 .wraps {
     overflow: hidden;
-    margin: 10px;
+    
   max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10svh auto;
+  
 }
 .box {
     float: left;
     position: relative;
-    width: 20%;
-    padding-bottom: 20%;
+    width: 30%;
+	height: 250px;
+    padding-bottom: 10%;
+	transition: 0.3s;
+	
+	
+}
+
+.box:hover{
+	transform: scale(1.1);
 }
 
 .boxInner {
@@ -472,15 +480,18 @@ Lighting Decor
     top: 10px;
     bottom: 10px;
     overflow: hidden;
+	border-radius: 8px;
+	border: 5px solid #aece89;
 }
- .boxInner img { width: 100% }
+ .boxInner img { width: 100%;
+height: 250px; }
 
 
 @media only screen and (max-width:480px) { 
     /* Smartphone view: 1 tile */
     .box {
         width: 100%;
-        padding-bottom: 100%;
+        padding-bottom: 50%;
     }
 }
 @media only screen and (max-width:650px) and (min-width:481px) { 
@@ -501,6 +512,6 @@ Lighting Decor
     /* Medium desktop: 4 tiles */
     .box {
         width: 25%;
-        padding-bottom: 25%;
+        padding-bottom: 20%;
     }
 }
