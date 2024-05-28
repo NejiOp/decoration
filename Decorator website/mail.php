@@ -5,7 +5,7 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 $event = $_POST['event'];
 $message = $_POST['message'];
-$to = "inquiry@weandyoucatering.com";
+$to = "inquiries@weandyoudecor.com";
 $subject = "Mail From Decor website";
 $txt = "Name = " . $name . "\r\nNumber = " . $phone . "\r\nEmail = " . $email . "\r\nEvent = " . $event . "\r\nMessage =" . $message;
 $headers = "From: $email" . "\r\n" .
