@@ -1337,7 +1337,15 @@ background: rgba(60, 60, 60, 0.4);
 }
 
 .item-9 { 
-  background-image: url('../images/decor2.jpeg');
+  background-image: url('../images/decor2.jpg');
+}
+
+.item-10 { 
+  background-image: url('../images/eternis\ entrance.jpg');
+}
+
+.item-11 { 
+  background-image: url('../images/decor\ eternis.jpg');
 }
 
 
