@@ -1312,40 +1312,45 @@ background: rgba(60, 60, 60, 0.4);
   background-image: url('../images/ganpati.jpg');
 }
 
-.item-3 { 
-  background-image: url('../images/poster.JPG');
-}
 
-.item-4 { 
+.item-3 { 
   background-image: url('../images/ganpati\ 1.jpg');
 }
 
-.item-5 { 
+.item-4 { 
   background-image: url('../images/nirmal.JPG');
 }
 
-.item-6 { 
+.item-5 { 
   background-image: url('../images/janmastami.jpg');
 }
 
-.item-7 { 
+.item-6 { 
   background-image: url('../images/potluck.jpg');
 }
 
-.item-8 { 
+.item-7 { 
   background-image: url('../images/decor1.jpg');
 }
 
-.item-9 { 
+.item-8 { 
   background-image: url('../images/decor2.jpg');
 }
 
-.item-10 { 
+.item-9 { 
   background-image: url('../images/eternis\ entrance.jpg');
 }
 
-.item-11 { 
+.item-10 { 
   background-image: url('../images/decor\ eternis.jpg');
+}
+
+.item-11 { 
+  background-image: url('../images/Event\ decoration\ entrance\ gate.jpg');
+}
+
+.item-12 { 
+  background-image: url('../images/Event\ decoration.jpg');
 }
 
 
