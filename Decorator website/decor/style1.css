@@ -239,7 +239,7 @@ flower decor
 	min-width: 100%;
 	object-fit: cover;
 	cursor: pointer;
-	filter: grayscale(60%);
+	filter: grayscale(50%);
 	transition: .35s linear;
   }
   
@@ -339,16 +339,14 @@ Lighting Decor
   */
 
   .bg {
-	margin-left: 18%;
+	
 	margin-top: 10svh;
 	margin-bottom: 10svh;
-  }
-  
-  .bg {
 	display: flex;
 	flex-wrap: wrap;
-
+	justify-content: center;
   }
+  
   
   .bg .image {
 	margin: 10px;
