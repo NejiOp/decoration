@@ -602,7 +602,7 @@ body.nav-active {
   top: 0;
   left: 0;
   width: 100%;
-  background-color:  #aece89;
+  background-color:  #739c44;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -610,7 +610,7 @@ body.nav-active {
 
 .header.active {
   padding-block: 15px;
-  background-color: #aece89;
+  background-color: #739c44;
   border-color: var(--black-alpha-15);
 }
 
@@ -991,7 +991,7 @@ background: rgba(60, 60, 60, 0.4);
 
  /* About Section */
  #about {
-	background:  #e892a7;;
+	background:  #eb7492;
 }
 #about h2::after {
 	bottom: 0;
@@ -1023,7 +1023,7 @@ background: rgba(60, 60, 60, 0.4);
 .features .section-title {
   margin-block-end: 40px;
   color: rgb(245, 245, 245);
-  background-color: #aece89; 
+  background-color: #739c44;
   margin-bottom: 5svh;
 }
 
@@ -1261,7 +1261,7 @@ background: rgba(60, 60, 60, 0.4);
 \*-----------------------------------*/
 
 .gallery{
-  background:#e892a7;
+  background:#eb7492;
  
   padding: 75px 0;
   margin: 0 auto;
@@ -1361,7 +1361,7 @@ background: rgba(60, 60, 60, 0.4);
 
 
 #footer {
-    background-color:  #aece89 !important;
+    background-color:  #739c44 !important;
 }
 
 #footer .row{
