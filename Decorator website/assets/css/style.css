@@ -387,7 +387,6 @@ body.nav-active {
   z-index: 1;
 }
 
-
 .btn::before {
   content: "";
   position: absolute;
@@ -2499,7 +2498,7 @@ hr{
 
 .home {
   margin-top: 15vh;
-  background-size: 100% 80vh;
+  background-size: 100% 100vh;
   background-repeat: no-repeat;
   position: relative;
   padding-block: 10px;
@@ -2542,7 +2541,7 @@ font-family: "Alice", serif;
 .vision-mission{
   display: flex; 
   gap: 20px;
-  height: 90vh;
+  height: 95vh;
 
 }
 
