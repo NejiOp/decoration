@@ -956,7 +956,6 @@ background: rgba(60, 60, 60, 0.4);
   margin-block: 15px 30px;
   margin-right: 150px;
   text-align: justify;
-  
 }
 
 .aboutus {
@@ -970,6 +969,10 @@ background: rgba(60, 60, 60, 0.4);
  #about .btn {
 
   margin-block-start: 26px;
+}
+
+#about .decor{
+  color: var(--black-alpha-80);
 }
  
 .aboutus img {
