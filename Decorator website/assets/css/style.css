@@ -11,7 +11,7 @@
   /**
    * COLORS
    */
-
+   --gold-crayola: hsl(44, 87%, 65%);
   --pink-crayola: #f78da7;
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
@@ -601,7 +601,7 @@ body.nav-active {
   top: 0;
   left: 0;
   width: 100%;
-  background-color:  #aece89;
+  background-color:  #000066;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -609,7 +609,7 @@ body.nav-active {
 
 .header.active {
   padding-block: 15px;
-  background-color: #aece89;
+  background-color: #000066;
   border-color: var(--black-alpha-15);
 }
 
@@ -725,7 +725,7 @@ body.nav-active {
 .navbar-link .span {
   transition: var(--transition-1);
   font-size: 1.5rem;
-  color: black;
+  color: white;
   
 }
 
@@ -993,7 +993,7 @@ background: rgba(60, 60, 60, 0.4);
 
  /* About Section */
  #about {
-	background:  #e892a7;;
+	background: #f2eded;
 }
 #about h2::after {
 	bottom: 0;
@@ -1263,7 +1263,7 @@ background: rgba(60, 60, 60, 0.4);
 \*-----------------------------------*/
 
 .gallery{
-  background:#e892a7;
+  background:#f2eded;
  
   padding: 75px 0;
   margin: 0 auto;
@@ -1363,7 +1363,7 @@ background: rgba(60, 60, 60, 0.4);
 
 
 #footer {
-    background-color:  #aece89 !important;
+    background-color:  #F5DEB3 !important;
 }
 
 #footer .row{
@@ -1518,7 +1518,7 @@ hr{
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--pink-crayola);
+  background-color: #f2eded;
   color: var(--smoky-black-1);
   font-size: 22px;
   width: 50px;
