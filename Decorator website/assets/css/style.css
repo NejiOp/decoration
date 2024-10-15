@@ -11,8 +11,10 @@
   /**
    * COLORS
    */
-   --gold-crayola: hsl(44, 87%, 65%);
-  --pink-crayola: #f78da7;
+  --Dark-Slate-Green: #16423C;
+  --Green-Sheen: #6A9C89;
+  --Jet-Stream: #C4DAD2;
+  --Platinum : #E9EFEC;
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -214,7 +216,7 @@ body.nav-active {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #f78da7;
+  background-color: var(--Green-Sheen);
 }
 
 /*-----------------------------------*\
@@ -305,7 +307,7 @@ body.nav-active {
 .separator {
   width: 8px;
   height: 8px;
-  border: 1px solid var(--pink-crayola);
+  border: 1px solid var(--Jet-Stream);
   transform: rotate(45deg);
 }
 
@@ -314,7 +316,7 @@ body.nav-active {
 }
 
 .contact-number {
-  color: var(--pink-crayola);
+  color: var(--Green-Sheen);
   max-width: max-content;
   margin-inline: auto;
 }
@@ -331,7 +333,7 @@ body.nav-active {
   bottom: 0;
   width: 100%;
   height: 5px;
-  border-block: 1px solid var(--pink-crayola);
+  border-block: 1px solid #a0b7af;
   transform: scaleX(0.2);
   opacity: 0;
   transition: var(--transition-2);
@@ -381,7 +383,7 @@ body.nav-active {
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-5);
   max-width: max-content;
-  border: 2px solid #f78da7;
+  border: 2px solid var(--Dark-Slate-Green);
   padding: 12px 45px;
   overflow: hidden;
   z-index: 1;
@@ -396,7 +398,7 @@ body.nav-active {
   width: 200%;
   height: 200%;
   border-radius: var(--radius-circle);
-  background-color: #f78da7;
+  background-color: var(--Jet-Stream);
   transition: var(--transition-2);
   z-index: -1;
 }
@@ -427,7 +429,7 @@ body.nav-active {
 }
 
 .btn-secondary {
-  background-color: var(--pink-crayola);
+  background-color: var(--Green-Sheen);
   color: var(--black);
 }
 
@@ -555,7 +557,7 @@ body.nav-active {
 }
 
 .input-field:focus {
-  border-color: var(--pink-crayola);
+  border-color: var(--Green-Sheen);
 }
 
 .icon-wrapper {
@@ -601,7 +603,7 @@ body.nav-active {
   top: 0;
   left: 0;
   width: 100%;
-  background-color:  #000066;
+  background-color:  var(--Dark-Slate-Green);
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -609,7 +611,7 @@ body.nav-active {
 
 .header.active {
   padding-block: 15px;
-  background-color: #000066;
+  background-color: var(--Dark-Slate-Green);
   border-color: var(--black-alpha-15);
 }
 
@@ -659,7 +661,7 @@ body.nav-active {
 
 .navbar {
   position: fixed;
-  background-color: var(--pink-crayola);
+  background-color: var(--Dark-Slate-Green);
   top: 0;
   left: -360px;
   bottom: 0;
@@ -725,7 +727,7 @@ body.nav-active {
 .navbar-link .span {
   transition: var(--transition-1);
   font-size: 1.5rem;
-  color: white;
+  color: var(--white);
   
 }
 
@@ -756,12 +758,12 @@ body.nav-active {
 }
 
 .navbar .body-4  {
-  color: var(--black-alpha-80);
+  color: rgb(226, 220, 220);
 }
 
 .navbar .contact-number 
 {
-  color: var(--black-alpha-80);
+  color: rgb(226, 220, 220);
 }
 .sidebar-link {
   transition: var(--transition-1);
@@ -884,7 +886,7 @@ body.nav-active {
   bottom: 15px;
   right: 15px;
   z-index: 2;
-  background-color: #f78da7;
+  background-color: var(--Green-Sheen);
   width: 110px;
   height: 110px;
   padding: 12px;
@@ -981,6 +983,9 @@ background: rgba(60, 60, 60, 0.4);
    max-height:100%;
  }
  
+ .section-title{
+    color: var(--eerie-black-1);
+ }
 
  .aboutus .text h2{
   font-size: 5rem;
@@ -993,21 +998,13 @@ background: rgba(60, 60, 60, 0.4);
 
  /* About Section */
  #about {
-	background: #f2eded;
+	background:  var(--Platinum);
 }
 #about h2::after {
 	bottom: 0;
 	margin-left: 0;
 	left: 0;
  
-}
-
-#about .btn{
-  border-color: #a4c47e;
-}
-
-#about .btn::before{
-  background-color: #a4c47e;
 }
 
 
@@ -1025,7 +1022,7 @@ background: rgba(60, 60, 60, 0.4);
 .features .section-title {
   margin-block-end: 40px;
   color: rgb(245, 245, 245);
-  background-color: #aece89; 
+  background-color: var(--Dark-Slate-Green); 
   margin-bottom: 5svh;
 }
 
@@ -1050,7 +1047,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-right: 5px;
   padding-left: 5px;
   border-radius: 100%;
-   border: 5px solid var(--pink-crayola);
+   border: 5px solid  var(--Green-Sheen);
    transition: transform 0.9s ease-in-out;
 
 }
@@ -1063,7 +1060,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1077,7 +1074,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
     border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1090,7 +1087,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 }
 
@@ -1103,7 +1100,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1116,7 +1113,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1129,7 +1126,7 @@ background: rgba(60, 60, 60, 0.4);
   height: 270px;
   width: 270px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 }
 
@@ -1143,7 +1140,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1159,7 +1156,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-left: 5px;
   border-radius: 100%;
 
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
     transition: transform 0.9s ease-in-out;
 
 }
@@ -1174,7 +1171,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-right: 5px;
   padding-left: 5px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 
@@ -1190,7 +1187,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-right: 5px;
   padding-left: 5px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1205,7 +1202,7 @@ background: rgba(60, 60, 60, 0.4);
   padding-right: 5px;
   padding-left: 5px;
   border-radius: 100%;
-  border: 5px solid var(--pink-crayola);
+  border: 5px solid var(--Green-Sheen);
   transition: transform 0.9s ease-in-out;
 
 }
@@ -1263,7 +1260,7 @@ background: rgba(60, 60, 60, 0.4);
 \*-----------------------------------*/
 
 .gallery{
-  background:#f2eded;
+  background:var(--Platinum);
  
   padding: 75px 0;
   margin: 0 auto;
@@ -1279,7 +1276,7 @@ background: rgba(60, 60, 60, 0.4);
   margin-bottom: 45px;
   font-size: 8rem;
   text-align: center;
-  color: var(--white);
+  color: var(--eerie-black-1);
 }
 
 .gallery-wrap {
@@ -1363,7 +1360,7 @@ background: rgba(60, 60, 60, 0.4);
 
 
 #footer {
-    background-color:  #F5DEB3 !important;
+    background-color:  var(--Green-Sheen) !important;
 }
 
 #footer .row{
@@ -1518,8 +1515,8 @@ hr{
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #f2eded;
-  color: var(--smoky-black-1);
+  background-color: var(--Green-Sheen);
+  color: var(--white);
   font-size: 22px;
   width: 50px;
   height: 50px;
@@ -1535,7 +1532,7 @@ hr{
 
 .back-top-btn:is(:hover, :focus-visible) {
   background-color: var(--white);
-  color: var(--pink-crayola);
+  color: var(--Green-Sheen);
 }
 
 .back-top-btn.active {
@@ -1673,9 +1670,9 @@ hr{
     display: grid;
     position: absolute;
     z-index: 1;
-    color: var(--pink-crayola);
+    color: var(--Dark-Slate-Green);
     font-size: 2.4rem;
-    border: 1px solid var(--pink-crayola);
+    border: 1px solid var(--Dark-Slate-Green);
     width: 45px;
     height: 45px;
     place-items: center;
@@ -1697,7 +1694,7 @@ hr{
   }
 
   .hero .slider-btn:is(:hover, :focus-visible) {
-    background-color: var(--pink-crayola);
+    background-color: var(--Green-Sheen);
     color: var(--black);
   }
 
