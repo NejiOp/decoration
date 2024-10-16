@@ -2949,8 +2949,7 @@ h3 {
   height: 200px;
   width: 200px;
   border-radius: 100px;
-  background: #aece89;
-  background:  var(--pink-crayola);
+  background:  var(--Green-Sheen);
   transition: all 0.3s ease-in;
   margin: auto;
   margin-top: 100px;
@@ -3006,7 +3005,7 @@ h3 {
   transition: none;
   display: float;
   position: relative;
-  border: 10px solid white;
+  border: 10px solid rgb(255, 254, 254);
   margin: 0 0 0 0; padding: 0 0 0 0;
 }
 .infocardContainer #textbois {
@@ -3020,7 +3019,7 @@ h3 {
 }
 
 .projects{
-  background-color: #faddd0;
+  background-color: var(--Platinum);
 }
 
 @media (max-width: 320px) {
