@@ -3421,21 +3421,22 @@ font-size: 15rem;
 font-family: "Alice", serif;
 }
 
-.reservation .container{
-  margin-bottom: 5vh;
-  margin-top: 5svh;
-
+.reservation {
+  padding: 5svh 0;
+background-color: var(--Platinum);
 }
+
 .reservation-form{
-  background-color: var(--pink-crayola);
+  background-color: var(--Dark-Slate-Green);
 }
 
 .reservation-form .btn{
-  border-color: #a4c47e;
+  border-color: var(--Green-Sheen);
+  background-color: transparent;
 }
 
 .reservation-form .btn::before{
-  background-color:#a4c47e;
+  background-color:var(--Green-Sheen);
 }
 
 
