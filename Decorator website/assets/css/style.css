@@ -2526,6 +2526,8 @@ font-family: "Alice", serif;
 .story{
   color: var(--smoky-black-1);
   text-align: center;
+  background-color: var(--Platinum);
+  padding: 8vh 0;
 }
 
 .story .section-text{
@@ -2536,7 +2538,6 @@ font-family: "Alice", serif;
 
 .story .headline-1{
   color: var(--smoky-black-1);
-  padding-top: 10vh;
   
 }
 
@@ -2544,24 +2545,22 @@ font-family: "Alice", serif;
   display: flex; 
   gap: 20px;
   height: 95vh;
-
 }
 
 .vision-mission p{
   font-size: 1.4rem;
 }
 .vision{
-
   text-align: center; 
   padding: 3%; 
-  background-color: #f78da7;
+  background-color: var(--Jet-Stream);
   width: 100%;
 }
 
 .mission{
   text-align: center; 
   padding: 3%; 
-  background-color: #f78da7;
+  background-color: var(--Jet-Stream);
   width: 100%;
 }
 
@@ -2572,12 +2571,11 @@ font-family: "Alice", serif;
 
 
 /*ISO Certificate*/
-    
-  
-
 
   .iso{
     width: 100%;
+    background-color: var(--Platinum);
+    padding-top: 10vh;
   }
   .iso hr {
  margin-left: 16%;
