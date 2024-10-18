@@ -75,7 +75,7 @@ party
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: #f78da7;
+	background: #E9EFEC;
   }
   
   *, *::before, *::after {
@@ -143,13 +143,13 @@ body {
   }
   
   .honeycomb-cell::before {
-	background: #fff;
+	background: #C4DAD2;
 	transform: scale(1.055);
   }
   
   .honeycomb-cell::after {
 	background: #ffb2c5;
-	opacity: 0.5;
+	opacity: 0.3;
 	transition:  opacity 350ms;
   }
   
@@ -158,7 +158,7 @@ body {
   }
   
   .honeycomb-cell:hover::before {
-	background: #aece89;
+	background: #6A9C89;
   }
   
   .honeycomb-cell:hover::after {
@@ -277,7 +277,7 @@ Lighting Decor
 	overflow: hidden;
 	display: inline-block;
 	border-radius: 15px;
-	border: 6px solid #aece89;
+	border: 6px solid #6A9C89;
 	color: white;
 	position: relative;
 	background-color: white;
@@ -355,7 +355,7 @@ Lighting Decor
   .bg .image img {
 	width: 390px;
 	height: 235px;
-	opacity: 70%;
+	opacity: 80%;
 	transition: 0.3s;
   }
   
@@ -391,7 +391,7 @@ Lighting Decor
 
 .boxInner:hover{
 	transform: scale(1.1);
-	border: 6px solid #aece89;
+	border: 6px solid #6A9C89;
 }
 
 .boxInner {
