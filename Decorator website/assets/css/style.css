@@ -1376,19 +1376,17 @@ padding-top: 5vh;
 }
 
 #footer h5{
-
 	padding-left: 10px;
- 
-    padding-bottom: 6px;
-   
-    color: var(--smoky-black-1);
+  padding-bottom: 6px;
+  color: var(--smoky-black-1);
 }
+
 #footer h3{
 font-size: 2.5rem;
 	padding-left: 10px;
-    border-left: 2px solid #eeeeee;
-    margin-bottom: 10px;
-    color:#ffffff;
+  border-left: 2px solid #eeeeee;
+  margin-bottom: 10px;
+  color:#ffffff;
 }
 
 
@@ -1403,7 +1401,7 @@ font-size: 2.5rem;
 	padding: 3px 0;
 }
 #footer ul.social li a i {
-    margin-right: 5px;
+  margin-right: 5px;
 	font-size:25px;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
@@ -1435,7 +1433,7 @@ font-size: 2.5rem;
 	margin-right: 5px;
 }
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #footer .links{
@@ -3015,7 +3013,7 @@ h3 {
 .infocardContainer #textbois {
   position: relative;
   padding-top: 4vh; 
-  padding-left: 14%;
+  padding-left: 13%;
 }
 
 .infocardContainer #textbois h4{
