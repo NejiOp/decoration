@@ -361,7 +361,7 @@ body.nav-active {
 
 .section-subtitle {
   position: relative;
-  color: var(--pink-crayola);
+  color: var(--Green-Sheen);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-2);
@@ -2554,14 +2554,13 @@ font-family: "Alice", serif;
 }
 .vision{
   text-align: center; 
-  padding: 3%; 
   background-color: var(--Jet-Stream);
   width: 100%;
 }
 
 .mission{
   text-align: center; 
-  padding: 3%; 
+  
   background-color: var(--Jet-Stream);
   width: 100%;
 }
@@ -2973,6 +2972,7 @@ h3 {
   flex-shrink: 1;
   width: 100%;
 }
+
 .infocardContainer div * {
   display: flex;
   --flex: inherit;
@@ -2982,9 +2982,9 @@ h3 {
   white-space: nowrap;
   width: 0;
   height: auto;
-  transition: all 0.3s ease-in;
-  
+  transition: all 0.3s ease-in;  
 }
+
 .infocardContainer:hover div *{
   display: flex;
   visibility: visible;
@@ -3001,6 +3001,7 @@ h3 {
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .infocardContainer #main img{
   height: 250px;
   width: 250px;
@@ -3010,6 +3011,7 @@ h3 {
   border: 10px solid rgb(255, 254, 254);
   margin: 0 0 0 0; padding: 0 0 0 0;
 }
+
 .infocardContainer #textbois {
   position: relative;
   padding-top: 4vh; 
