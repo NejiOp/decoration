@@ -1021,6 +1021,10 @@ background: rgba(60, 60, 60, 0.4);
   #Services
 \*-----------------------------------*/
 
+.fea-sec{
+  background: var(--Platinum);
+}
+
 .features .section-title {
   margin-block-end: 40px;
   color: rgb(245, 245, 245);
