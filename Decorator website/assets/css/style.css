@@ -3153,7 +3153,6 @@ h3 {
 
   .infocardContainer:hover #textbois h4, p{
    font-size: 1.3rem;
-   
   }
 
   .infocardContainer:hover #textbois h3{
@@ -3166,7 +3165,6 @@ h3 {
 @media screen and (min-width: 431px) and (max-width: 770px) {
   .pro-sec{
     background-size: 100% 100%;
-    
   }
 
   .pro-sec h1{
@@ -3332,12 +3330,10 @@ services
   services
   */
    .our-services ul  {
-    
     padding-left: 12%;
   }
   
   .slogans{
-    
     font-size: 1.5rem;
     line-height: 20px;
   }
@@ -3415,15 +3411,15 @@ services
   color:var(--white);
   background: rgba(60, 60, 60, 0.4);
   margin-left: 10%;
-    margin-right: 10%;
-margin-top: 14vh;
-font-size: 15rem;
-font-family: "Alice", serif;
+  margin-right: 10%;
+  margin-top: 14vh;
+  font-size: 15rem;
+  font-family: "Alice", serif;
 }
 
 .reservation {
   padding: 5svh 0;
-background-color: var(--Platinum);
+  background-color: var(--Platinum);
 }
 
 .reservation-form{
@@ -3432,13 +3428,13 @@ background-color: var(--Platinum);
 
 .reservation-form .btn{
   border-color: var(--Green-Sheen);
+  color: var(--white);
   background-color: transparent;
 }
 
 .reservation-form .btn::before{
   background-color:var(--Green-Sheen);
 }
-
 
 .reservation-form input{
 background-color:rgb(249, 239, 239);
@@ -3581,9 +3577,6 @@ textarea.input-field {
 }
   
     }
-   
-  
-  
   
   
   @media screen and (min-width: 431px) and (max-width: 770px) {
