@@ -2551,15 +2551,15 @@ font-family: "Alice", serif;
 
 .vision-mission p{
   font-size: 1.4rem;
+  text-align: justify;
+  padding: 0 2% 2% 2%;
 }
 .vision{
-  text-align: center; 
   background-color: var(--Jet-Stream);
   width: 100%;
 }
 
 .mission{
-  text-align: center; 
   
   background-color: var(--Jet-Stream);
   width: 100%;
